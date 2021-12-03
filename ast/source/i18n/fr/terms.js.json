@@ -1,0 +1,4389 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 10759,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 48,
+      "column": 0
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 10759,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 48,
+        "column": 0
+      }
+    },
+    "sourceType": "module",
+    "body": [
+      {
+        "type": "ExportDefaultDeclaration",
+        "start": 0,
+        "end": 10758,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 47,
+            "column": 2
+          }
+        },
+        "declaration": {
+          "type": "ObjectExpression",
+          "start": 15,
+          "end": 10757,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 15
+            },
+            "end": {
+              "line": 47,
+              "column": 1
+            }
+          },
+          "properties": [
+            {
+              "type": "ObjectProperty",
+              "start": 19,
+              "end": 48,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 2
+                },
+                "end": {
+                  "line": 2,
+                  "column": 31
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 19,
+                "end": 24,
+                "loc": {
+                  "start": {
+                    "line": 2,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 7
+                  },
+                  "identifierName": "title"
+                },
+                "name": "title"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 26,
+                "end": 48,
+                "loc": {
+                  "start": {
+                    "line": 2,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 31
+                  }
+                },
+                "extra": {
+                  "rawValue": "Terms and conditions",
+                  "raw": "'Terms and conditions'"
+                },
+                "value": "Terms and conditions"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 52,
+              "end": 97,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 2
+                },
+                "end": {
+                  "line": 3,
+                  "column": 47
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 52,
+                "end": 65,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 15
+                  },
+                  "identifierName": "privacyPolicy"
+                },
+                "name": "privacyPolicy"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 67,
+                "end": 97,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 17
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 47
+                  }
+                },
+                "extra": {
+                  "rawValue": "Politique de confidentialité",
+                  "raw": "'Politique de confidentialité'"
+                },
+                "value": "Politique de confidentialité"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 102,
+              "end": 158,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 2
+                },
+                "end": {
+                  "line": 5,
+                  "column": 58
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 102,
+                "end": 104,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 4
+                  },
+                  "identifierName": "q1"
+                },
+                "name": "q1"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 106,
+                "end": 158,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 6
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 58
+                  }
+                },
+                "extra": {
+                  "rawValue": "1. Quelle est notre politique de confidentialité ?",
+                  "raw": "'1. Quelle est notre politique de confidentialité ?'"
+                },
+                "value": "1. Quelle est notre politique de confidentialité ?"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 162,
+              "end": 1171,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 2
+                },
+                "end": {
+                  "line": 7,
+                  "column": 1005
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 162,
+                "end": 164,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 4
+                  },
+                  "identifierName": "a1"
+                },
+                "name": "a1"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 170,
+                "end": 1171,
+                "loc": {
+                  "start": {
+                    "line": 7,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 7,
+                    "column": 1005
+                  }
+                },
+                "extra": {
+                  "rawValue": "PCL Inc. respecte la confidentialité de ses utilisateurs. La politique de confidentialité décrit comment PCL Inc. collecte, utilise et fournit des données personnelles, sur la base du consentement de l’utilisateur, et garantit activement les droits (droit à l’autodétermination informationnelle) des utilisateurs. PCL Inc. se conforme aux lois applicables, aux réglementations en matière de protection des informations personnelles et aux directives de la République de Corée, qu'un fournisseur de services d’information et de communication doit respecter. Le terme « politique de traitement des informations personnelles » désigne les directives que l’entreprise doit respecter afin de protéger les informations personnelles précieuses des utilisateurs pour que ces derniers puissent utiliser le service en toute sécurité et en toute confiance. Cette politique de confidentialité s’applique aux services basés sur l’application PCL FREE PASS fournis par la société (ci-après dénommés « services »).",
+                  "raw": "\"PCL Inc. respecte la confidentialité de ses utilisateurs. La politique de confidentialité décrit comment PCL Inc. collecte, utilise et fournit des données personnelles, sur la base du consentement de l’utilisateur, et garantit activement les droits (droit à l’autodétermination informationnelle) des utilisateurs. PCL Inc. se conforme aux lois applicables, aux réglementations en matière de protection des informations personnelles et aux directives de la République de Corée, qu'un fournisseur de services d’information et de communication doit respecter. Le terme « politique de traitement des informations personnelles » désigne les directives que l’entreprise doit respecter afin de protéger les informations personnelles précieuses des utilisateurs pour que ces derniers puissent utiliser le service en toute sécurité et en toute confiance. Cette politique de confidentialité s’applique aux services basés sur l’application PCL FREE PASS fournis par la société (ci-après dénommés « services »).\""
+                },
+                "value": "PCL Inc. respecte la confidentialité de ses utilisateurs. La politique de confidentialité décrit comment PCL Inc. collecte, utilise et fournit des données personnelles, sur la base du consentement de l’utilisateur, et garantit activement les droits (droit à l’autodétermination informationnelle) des utilisateurs. PCL Inc. se conforme aux lois applicables, aux réglementations en matière de protection des informations personnelles et aux directives de la République de Corée, qu'un fournisseur de services d’information et de communication doit respecter. Le terme « politique de traitement des informations personnelles » désigne les directives que l’entreprise doit respecter afin de protéger les informations personnelles précieuses des utilisateurs pour que ces derniers puissent utiliser le service en toute sécurité et en toute confiance. Cette politique de confidentialité s’applique aux services basés sur l’application PCL FREE PASS fournis par la société (ci-après dénommés « services »)."
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1175,
+              "end": 1220,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 2
+                },
+                "end": {
+                  "line": 8,
+                  "column": 47
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1175,
+                "end": 1177,
+                "loc": {
+                  "start": {
+                    "line": 8,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 8,
+                    "column": 4
+                  },
+                  "identifierName": "q2"
+                },
+                "name": "q2"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1179,
+                "end": 1220,
+                "loc": {
+                  "start": {
+                    "line": 8,
+                    "column": 6
+                  },
+                  "end": {
+                    "line": 8,
+                    "column": 47
+                  }
+                },
+                "extra": {
+                  "rawValue": "2. Collecte d’informations personnelles",
+                  "raw": "'2. Collecte d’informations personnelles'"
+                },
+                "value": "2. Collecte d’informations personnelles"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1224,
+              "end": 1451,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 2
+                },
+                "end": {
+                  "line": 10,
+                  "column": 223
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1224,
+                "end": 1226,
+                "loc": {
+                  "start": {
+                    "line": 9,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 4
+                  },
+                  "identifierName": "a2"
+                },
+                "name": "a2"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1232,
+                "end": 1451,
+                "loc": {
+                  "start": {
+                    "line": 10,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 10,
+                    "column": 223
+                  }
+                },
+                "extra": {
+                  "rawValue": "PCL Inc. collecte le minimum d’informations personnelles pour fournir les services suivants sur le site Web ou via des applications ou des logiciels individuels lorsqu’un utilisateur se connecte ou utilise un service.",
+                  "raw": "'PCL Inc. collecte le minimum d’informations personnelles pour fournir les services suivants sur le site Web ou via des applications ou des logiciels individuels lorsqu’un utilisateur se connecte ou utilise un service.'"
+                },
+                "value": "PCL Inc. collecte le minimum d’informations personnelles pour fournir les services suivants sur le site Web ou via des applications ou des logiciels individuels lorsqu’un utilisateur se connecte ou utilise un service."
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1455,
+              "end": 1483,
+              "loc": {
+                "start": {
+                  "line": 11,
+                  "column": 2
+                },
+                "end": {
+                  "line": 11,
+                  "column": 30
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1455,
+                "end": 1459,
+                "loc": {
+                  "start": {
+                    "line": 11,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 6
+                  },
+                  "identifierName": "a2q1"
+                },
+                "name": "a2q1"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1461,
+                "end": 1483,
+                "loc": {
+                  "start": {
+                    "line": 11,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 30
+                  }
+                },
+                "extra": {
+                  "rawValue": "Compte PCL FREE PASS",
+                  "raw": "'Compte PCL FREE PASS'"
+                },
+                "value": "Compte PCL FREE PASS"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1487,
+              "end": 1594,
+              "loc": {
+                "start": {
+                  "line": 12,
+                  "column": 2
+                },
+                "end": {
+                  "line": 13,
+                  "column": 101
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1487,
+                "end": 1491,
+                "loc": {
+                  "start": {
+                    "line": 12,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 12,
+                    "column": 6
+                  },
+                  "identifierName": "a2a1"
+                },
+                "name": "a2a1"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1497,
+                "end": 1594,
+                "loc": {
+                  "start": {
+                    "line": 13,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 13,
+                    "column": 101
+                  }
+                },
+                "extra": {
+                  "rawValue": "Informations obligatoires : numéro de téléphone portable, mot de passe, date de naissance, sexe",
+                  "raw": "'Informations obligatoires : numéro de téléphone portable, mot de passe, date de naissance, sexe'"
+                },
+                "value": "Informations obligatoires : numéro de téléphone portable, mot de passe, date de naissance, sexe"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1598,
+              "end": 1630,
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 2
+                },
+                "end": {
+                  "line": 14,
+                  "column": 34
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1598,
+                "end": 1602,
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 14,
+                    "column": 6
+                  },
+                  "identifierName": "a2q2"
+                },
+                "name": "a2q2"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1604,
+                "end": 1630,
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 14,
+                    "column": 34
+                  }
+                },
+                "extra": {
+                  "rawValue": "Pour vérifier l’identité",
+                  "raw": "'Pour vérifier l’identité'"
+                },
+                "value": "Pour vérifier l’identité"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1634,
+              "end": 1766,
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 2
+                },
+                "end": {
+                  "line": 16,
+                  "column": 126
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1634,
+                "end": 1638,
+                "loc": {
+                  "start": {
+                    "line": 15,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 15,
+                    "column": 6
+                  },
+                  "identifierName": "a2a2"
+                },
+                "name": "a2a2"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1644,
+                "end": 1766,
+                "loc": {
+                  "start": {
+                    "line": 16,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 16,
+                    "column": 126
+                  }
+                },
+                "extra": {
+                  "rawValue": "Nom, sexe, date de naissance, numéro de téléphone portable, fournisseur de services de communication, citoyen / étranger",
+                  "raw": "'Nom, sexe, date de naissance, numéro de téléphone portable, fournisseur de services de communication, citoyen / étranger'"
+                },
+                "value": "Nom, sexe, date de naissance, numéro de téléphone portable, fournisseur de services de communication, citoyen / étranger"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1770,
+              "end": 1820,
+              "loc": {
+                "start": {
+                  "line": 17,
+                  "column": 2
+                },
+                "end": {
+                  "line": 17,
+                  "column": 52
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1770,
+                "end": 1774,
+                "loc": {
+                  "start": {
+                    "line": 17,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 17,
+                    "column": 6
+                  },
+                  "identifierName": "a2q3"
+                },
+                "name": "a2q3"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1776,
+                "end": 1820,
+                "loc": {
+                  "start": {
+                    "line": 17,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 17,
+                    "column": 52
+                  }
+                },
+                "extra": {
+                  "rawValue": "Pour le consentement du représentant légal",
+                  "raw": "'Pour le consentement du représentant légal'"
+                },
+                "value": "Pour le consentement du représentant légal"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1824,
+              "end": 1980,
+              "loc": {
+                "start": {
+                  "line": 18,
+                  "column": 2
+                },
+                "end": {
+                  "line": 19,
+                  "column": 150
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1824,
+                "end": 1828,
+                "loc": {
+                  "start": {
+                    "line": 18,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 18,
+                    "column": 6
+                  },
+                  "identifierName": "a2a3"
+                },
+                "name": "a2a3"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1834,
+                "end": 1980,
+                "loc": {
+                  "start": {
+                    "line": 19,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 19,
+                    "column": 150
+                  }
+                },
+                "extra": {
+                  "rawValue": "Informations sur le représentant légal (nom, sexe, date de naissance, numéro de téléphone portable, fournisseur de services, citoyen / étranger)",
+                  "raw": "'Informations sur le représentant légal (nom, sexe, date de naissance, numéro de téléphone portable, fournisseur de services, citoyen / étranger)'"
+                },
+                "value": "Informations sur le représentant légal (nom, sexe, date de naissance, numéro de téléphone portable, fournisseur de services, citoyen / étranger)"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1984,
+              "end": 2033,
+              "loc": {
+                "start": {
+                  "line": 20,
+                  "column": 2
+                },
+                "end": {
+                  "line": 20,
+                  "column": 51
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1984,
+                "end": 1988,
+                "loc": {
+                  "start": {
+                    "line": 20,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 20,
+                    "column": 6
+                  },
+                  "identifierName": "a2q4"
+                },
+                "name": "a2q4"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1990,
+                "end": 2033,
+                "loc": {
+                  "start": {
+                    "line": 20,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 20,
+                    "column": 51
+                  }
+                },
+                "extra": {
+                  "rawValue": "Qu’est-ce que les informations requises ?",
+                  "raw": "'Qu’est-ce que les informations requises ?'"
+                },
+                "value": "Qu’est-ce que les informations requises ?"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 2037,
+              "end": 2132,
+              "loc": {
+                "start": {
+                  "line": 21,
+                  "column": 2
+                },
+                "end": {
+                  "line": 22,
+                  "column": 89
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 2037,
+                "end": 2041,
+                "loc": {
+                  "start": {
+                    "line": 21,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 21,
+                    "column": 6
+                  },
+                  "identifierName": "a2a4"
+                },
+                "name": "a2a4"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 2047,
+                "end": 2132,
+                "loc": {
+                  "start": {
+                    "line": 22,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 22,
+                    "column": 89
+                  }
+                },
+                "extra": {
+                  "rawValue": "Informations nécessaires pour fournir les caractéristiques fondamentales du service",
+                  "raw": "'Informations nécessaires pour fournir les caractéristiques fondamentales du service'"
+                },
+                "value": "Informations nécessaires pour fournir les caractéristiques fondamentales du service"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 2136,
+              "end": 2186,
+              "loc": {
+                "start": {
+                  "line": 23,
+                  "column": 2
+                },
+                "end": {
+                  "line": 23,
+                  "column": 52
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 2136,
+                "end": 2140,
+                "loc": {
+                  "start": {
+                    "line": 23,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 23,
+                    "column": 6
+                  },
+                  "identifierName": "a2q5"
+                },
+                "name": "a2q5"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 2142,
+                "end": 2186,
+                "loc": {
+                  "start": {
+                    "line": 23,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 23,
+                    "column": 52
+                  }
+                },
+                "extra": {
+                  "rawValue": "Qu’est-ce qu’une information facultative ?",
+                  "raw": "'Qu’est-ce qu’une information facultative ?'"
+                },
+                "value": "Qu’est-ce qu’une information facultative ?"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 2190,
+              "end": 2422,
+              "loc": {
+                "start": {
+                  "line": 24,
+                  "column": 2
+                },
+                "end": {
+                  "line": 25,
+                  "column": 226
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 2190,
+                "end": 2194,
+                "loc": {
+                  "start": {
+                    "line": 24,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 24,
+                    "column": 6
+                  },
+                  "identifierName": "a2a5"
+                },
+                "name": "a2a5"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 2200,
+                "end": 2422,
+                "loc": {
+                  "start": {
+                    "line": 25,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 25,
+                    "column": 226
+                  }
+                },
+                "extra": {
+                  "rawValue": "Informations supplémentaires qui doivent être collectées afin de fournir des services plus spécialisés (il n’y a aucune restriction sur l’utilisation du service même si vous ne fournissez aucune information facultative).",
+                  "raw": "'Informations supplémentaires qui doivent être collectées afin de fournir des services plus spécialisés (il n’y a aucune restriction sur l’utilisation du service même si vous ne fournissez aucune information facultative).'"
+                },
+                "value": "Informations supplémentaires qui doivent être collectées afin de fournir des services plus spécialisés (il n’y a aucune restriction sur l’utilisation du service même si vous ne fournissez aucune information facultative)."
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 2426,
+              "end": 3671,
+              "loc": {
+                "start": {
+                  "line": 26,
+                  "column": 2
+                },
+                "end": {
+                  "line": 27,
+                  "column": 1239
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 2426,
+                "end": 2430,
+                "loc": {
+                  "start": {
+                    "line": 26,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 26,
+                    "column": 6
+                  },
+                  "identifierName": "a2a6"
+                },
+                "name": "a2a6"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 2436,
+                "end": 3671,
+                "loc": {
+                  "start": {
+                    "line": 27,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 27,
+                    "column": 1239
+                  }
+                },
+                "extra": {
+                  "rawValue": "Les informations personnelles sont collectées selon la méthode suivante :\nLors de la collecte d’informations personnelles, PCL Inc. en informe préalablement l’utilisateur et lui demande son consentement.\n. L’utilisateur accepte la collecte d’informations personnelles et saisit les informations pertinentes lors de l’inscription à un service ou lors de l’utilisation du service\n. Les informations personnelles sont fournies par le biais de services ou d’organisations affiliés\n. Les informations personnelles sont fournies via une page Web, un mail, par fax, par téléphone, etc. lors du service destiné au client\n. L’utilisateur participe à des événements en ligne/hors ligne\nLes informations personnelles collectées auprès des utilisateurs pendant que l’utilisateur utilise le service sont les suivantes.\n. Informations sur l’appareil (OS, taille de l’écran, identifiant de l’appareil, nom du modèle de l’appareil, etc.), adresse IP, cookies, dates de visite, historiques d’utilisation illégale, historiques d’utilisation de service, etc.\nLes informations peuvent être automatiquement générées puis collectées.\nLes informations personnelles sont fournies par des tiers dans le cadre de partenariats ou de services associés.",
+                  "raw": "'Les informations personnelles sont collectées selon la méthode suivante :\\nLors de la collecte d’informations personnelles, PCL Inc. en informe préalablement l’utilisateur et lui demande son consentement.\\n. L’utilisateur accepte la collecte d’informations personnelles et saisit les informations pertinentes lors de l’inscription à un service ou lors de l’utilisation du service\\n. Les informations personnelles sont fournies par le biais de services ou d’organisations affiliés\\n. Les informations personnelles sont fournies via une page Web, un mail, par fax, par téléphone, etc. lors du service destiné au client\\n. L’utilisateur participe à des événements en ligne/hors ligne\\nLes informations personnelles collectées auprès des utilisateurs pendant que l’utilisateur utilise le service sont les suivantes.\\n. Informations sur l’appareil (OS, taille de l’écran, identifiant de l’appareil, nom du modèle de l’appareil, etc.), adresse IP, cookies, dates de visite, historiques d’utilisation illégale, historiques d’utilisation de service, etc.\\nLes informations peuvent être automatiquement générées puis collectées.\\nLes informations personnelles sont fournies par des tiers dans le cadre de partenariats ou de services associés.'"
+                },
+                "value": "Les informations personnelles sont collectées selon la méthode suivante :\nLors de la collecte d’informations personnelles, PCL Inc. en informe préalablement l’utilisateur et lui demande son consentement.\n. L’utilisateur accepte la collecte d’informations personnelles et saisit les informations pertinentes lors de l’inscription à un service ou lors de l’utilisation du service\n. Les informations personnelles sont fournies par le biais de services ou d’organisations affiliés\n. Les informations personnelles sont fournies via une page Web, un mail, par fax, par téléphone, etc. lors du service destiné au client\n. L’utilisateur participe à des événements en ligne/hors ligne\nLes informations personnelles collectées auprès des utilisateurs pendant que l’utilisateur utilise le service sont les suivantes.\n. Informations sur l’appareil (OS, taille de l’écran, identifiant de l’appareil, nom du modèle de l’appareil, etc.), adresse IP, cookies, dates de visite, historiques d’utilisation illégale, historiques d’utilisation de service, etc.\nLes informations peuvent être automatiquement générées puis collectées.\nLes informations personnelles sont fournies par des tiers dans le cadre de partenariats ou de services associés."
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 3676,
+              "end": 3726,
+              "loc": {
+                "start": {
+                  "line": 29,
+                  "column": 2
+                },
+                "end": {
+                  "line": 29,
+                  "column": 52
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 3676,
+                "end": 3678,
+                "loc": {
+                  "start": {
+                    "line": 29,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 29,
+                    "column": 4
+                  },
+                  "identifierName": "q3"
+                },
+                "name": "q3"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 3680,
+                "end": 3726,
+                "loc": {
+                  "start": {
+                    "line": 29,
+                    "column": 6
+                  },
+                  "end": {
+                    "line": 29,
+                    "column": 52
+                  }
+                },
+                "extra": {
+                  "rawValue": "3. Utilisation des informations personnelles",
+                  "raw": "'3. Utilisation des informations personnelles'"
+                },
+                "value": "3. Utilisation des informations personnelles"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 3730,
+              "end": 5474,
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 2
+                },
+                "end": {
+                  "line": 31,
+                  "column": 1740
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 3730,
+                "end": 3732,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 4
+                  },
+                  "identifierName": "a3"
+                },
+                "name": "a3"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 3738,
+                "end": 5474,
+                "loc": {
+                  "start": {
+                    "line": 31,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 31,
+                    "column": 1740
+                  }
+                },
+                "extra": {
+                  "rawValue": "Les informations personnelles sont utilisées pour gérer l’adhésion, fournir puis améliorer les services et développer de nouveaux services.\nLes informations personnelles sont collectées dans la mesure minimale requise afin de fournir des services lorsque l’utilisateur s’inscrit au service ou pendant que l’utilisateur utilise les services via la page d’accueil, les applications et logiciels individuels, etc.\n- Identification du membre, confirmation de la volonté de l’utilisateur à s’inscrire, vérification de l’utilisateur et de l’âge, prévention des utilisations inappropriées\n- Confirmation du consentement d’un représentant légal en cas de collecte d’informations personnelles d’enfants de moins de 14 ans, vérification de l’identité du représentant légal par la suite\n- Fourniture de diverses fonctions telles que la recherche ainsi que l’enregistrement des utilisateurs, le développement de nouveaux services, la fourniture de divers services, le traitement des demandes et des plaintes, la livraison de notifications\n- Envoi de contenus, etc. auprès des utilisateurs de services payants ou d’expédition / de paiement\n- Prévention et sanction de tout acte interrompant le fonctionnement normal du service (notamment vol de compte et utilisation frauduleuse, etc.)\n- Fourniture de recommandation de contenu personnalisé et marketing basé sur l’analyse des caractéristiques démographiques et des intérêts, préférences et propensions des utilisateurs\n- Statistiques basées sur l’historique d’utilisation des services, la fréquence des visites et de l’utilisation des services ; développement d’un environnement de service pour protéger la vie privée ; développement de services personnalisés ; amélioration des services.",
+                  "raw": "'Les informations personnelles sont utilisées pour gérer l’adhésion, fournir puis améliorer les services et développer de nouveaux services.\\nLes informations personnelles sont collectées dans la mesure minimale requise afin de fournir des services lorsque l’utilisateur s’inscrit au service ou pendant que l’utilisateur utilise les services via la page d’accueil, les applications et logiciels individuels, etc.\\n- Identification du membre, confirmation de la volonté de l’utilisateur à s’inscrire, vérification de l’utilisateur et de l’âge, prévention des utilisations inappropriées\\n- Confirmation du consentement d’un représentant légal en cas de collecte d’informations personnelles d’enfants de moins de 14 ans, vérification de l’identité du représentant légal par la suite\\n- Fourniture de diverses fonctions telles que la recherche ainsi que l’enregistrement des utilisateurs, le développement de nouveaux services, la fourniture de divers services, le traitement des demandes et des plaintes, la livraison de notifications\\n- Envoi de contenus, etc. auprès des utilisateurs de services payants ou d’expédition / de paiement\\n- Prévention et sanction de tout acte interrompant le fonctionnement normal du service (notamment vol de compte et utilisation frauduleuse, etc.)\\n- Fourniture de recommandation de contenu personnalisé et marketing basé sur l’analyse des caractéristiques démographiques et des intérêts, préférences et propensions des utilisateurs\\n- Statistiques basées sur l’historique d’utilisation des services, la fréquence des visites et de l’utilisation des services ; développement d’un environnement de service pour protéger la vie privée ; développement de services personnalisés ; amélioration des services.'"
+                },
+                "value": "Les informations personnelles sont utilisées pour gérer l’adhésion, fournir puis améliorer les services et développer de nouveaux services.\nLes informations personnelles sont collectées dans la mesure minimale requise afin de fournir des services lorsque l’utilisateur s’inscrit au service ou pendant que l’utilisateur utilise les services via la page d’accueil, les applications et logiciels individuels, etc.\n- Identification du membre, confirmation de la volonté de l’utilisateur à s’inscrire, vérification de l’utilisateur et de l’âge, prévention des utilisations inappropriées\n- Confirmation du consentement d’un représentant légal en cas de collecte d’informations personnelles d’enfants de moins de 14 ans, vérification de l’identité du représentant légal par la suite\n- Fourniture de diverses fonctions telles que la recherche ainsi que l’enregistrement des utilisateurs, le développement de nouveaux services, la fourniture de divers services, le traitement des demandes et des plaintes, la livraison de notifications\n- Envoi de contenus, etc. auprès des utilisateurs de services payants ou d’expédition / de paiement\n- Prévention et sanction de tout acte interrompant le fonctionnement normal du service (notamment vol de compte et utilisation frauduleuse, etc.)\n- Fourniture de recommandation de contenu personnalisé et marketing basé sur l’analyse des caractéristiques démographiques et des intérêts, préférences et propensions des utilisateurs\n- Statistiques basées sur l’historique d’utilisation des services, la fréquence des visites et de l’utilisation des services ; développement d’un environnement de service pour protéger la vie privée ; développement de services personnalisés ; amélioration des services."
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 5479,
+              "end": 5528,
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 2
+                },
+                "end": {
+                  "line": 33,
+                  "column": 51
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 5479,
+                "end": 5481,
+                "loc": {
+                  "start": {
+                    "line": 33,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 33,
+                    "column": 4
+                  },
+                  "identifierName": "q4"
+                },
+                "name": "q4"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 5483,
+                "end": 5528,
+                "loc": {
+                  "start": {
+                    "line": 33,
+                    "column": 6
+                  },
+                  "end": {
+                    "line": 33,
+                    "column": 51
+                  }
+                },
+                "extra": {
+                  "rawValue": "4. Fourniture des informations personnelles",
+                  "raw": "'4. Fourniture des informations personnelles'"
+                },
+                "value": "4. Fourniture des informations personnelles"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 5532,
+              "end": 6490,
+              "loc": {
+                "start": {
+                  "line": 34,
+                  "column": 2
+                },
+                "end": {
+                  "line": 35,
+                  "column": 954
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 5532,
+                "end": 5534,
+                "loc": {
+                  "start": {
+                    "line": 34,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 34,
+                    "column": 4
+                  },
+                  "identifierName": "a4"
+                },
+                "name": "a4"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 5540,
+                "end": 6490,
+                "loc": {
+                  "start": {
+                    "line": 35,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 35,
+                    "column": 954
+                  }
+                },
+                "extra": {
+                  "rawValue": "PCL Inc. ne fournit aucune information personnelle à un tiers sans le consentement de l’utilisateur ou à moins que les lois et règlements applicables ne l’exigent.\nPCL Inc. confie les informations personnelles suivantes à un tiers pour connecter les Services Kakao à des services tiers.\nPCL Inc. ne divulgue pas les informations personnelles d’un utilisateur à des tiers sans le consentement préalable de l’utilisateur. Cependant, les informations personnelles peuvent être fournies à des tiers avec le consentement de l’utilisateur dans la mesure nécessaire afin que l’utilisateur puisse utiliser les services des sociétés partenaires de PCL Inc.\nPCL Inc. fournit des informations personnelles à des tiers dans le cadre de la délégation de certaines parties des affaires nécessaires à la prestation de services. PCL Inc. supervise et surveille également les parties mandatées afin de prévenir toute violation des lois et règlements applicables.",
+                  "raw": "'PCL Inc. ne fournit aucune information personnelle à un tiers sans le consentement de l’utilisateur ou à moins que les lois et règlements applicables ne l’exigent.\\nPCL Inc. confie les informations personnelles suivantes à un tiers pour connecter les Services Kakao à des services tiers.\\nPCL Inc. ne divulgue pas les informations personnelles d’un utilisateur à des tiers sans le consentement préalable de l’utilisateur. Cependant, les informations personnelles peuvent être fournies à des tiers avec le consentement de l’utilisateur dans la mesure nécessaire afin que l’utilisateur puisse utiliser les services des sociétés partenaires de PCL Inc.\\nPCL Inc. fournit des informations personnelles à des tiers dans le cadre de la délégation de certaines parties des affaires nécessaires à la prestation de services. PCL Inc. supervise et surveille également les parties mandatées afin de prévenir toute violation des lois et règlements applicables.'"
+                },
+                "value": "PCL Inc. ne fournit aucune information personnelle à un tiers sans le consentement de l’utilisateur ou à moins que les lois et règlements applicables ne l’exigent.\nPCL Inc. confie les informations personnelles suivantes à un tiers pour connecter les Services Kakao à des services tiers.\nPCL Inc. ne divulgue pas les informations personnelles d’un utilisateur à des tiers sans le consentement préalable de l’utilisateur. Cependant, les informations personnelles peuvent être fournies à des tiers avec le consentement de l’utilisateur dans la mesure nécessaire afin que l’utilisateur puisse utiliser les services des sociétés partenaires de PCL Inc.\nPCL Inc. fournit des informations personnelles à des tiers dans le cadre de la délégation de certaines parties des affaires nécessaires à la prestation de services. PCL Inc. supervise et surveille également les parties mandatées afin de prévenir toute violation des lois et règlements applicables."
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 6495,
+              "end": 6545,
+              "loc": {
+                "start": {
+                  "line": 37,
+                  "column": 2
+                },
+                "end": {
+                  "line": 37,
+                  "column": 52
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 6495,
+                "end": 6497,
+                "loc": {
+                  "start": {
+                    "line": 37,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 37,
+                    "column": 4
+                  },
+                  "identifierName": "q5"
+                },
+                "name": "q5"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 6499,
+                "end": 6545,
+                "loc": {
+                  "start": {
+                    "line": 37,
+                    "column": 6
+                  },
+                  "end": {
+                    "line": 37,
+                    "column": 52
+                  }
+                },
+                "extra": {
+                  "rawValue": "5. Destruction des informations personnelles",
+                  "raw": "'5. Destruction des informations personnelles'"
+                },
+                "value": "5. Destruction des informations personnelles"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 6549,
+              "end": 8134,
+              "loc": {
+                "start": {
+                  "line": 38,
+                  "column": 2
+                },
+                "end": {
+                  "line": 39,
+                  "column": 1581
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 6549,
+                "end": 6551,
+                "loc": {
+                  "start": {
+                    "line": 38,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 38,
+                    "column": 4
+                  },
+                  "identifierName": "a5"
+                },
+                "name": "a5"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 6557,
+                "end": 8134,
+                "loc": {
+                  "start": {
+                    "line": 39,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 39,
+                    "column": 1581
+                  }
+                },
+                "extra": {
+                  "rawValue": "Les informations personnelles de l’utilisateur doivent être immédiatement détruites une fois que le but de la collecte et de l’utilisation des informations personnelles est atteint. La procédure ainsi que la méthode de destruction sont les suivantes :\nLes informations personnelles stockées dans des formats de fichiers électroniques doivent être supprimées à l’aide de moyens techniques qui assurent que les informations soient irrécupérables. Les informations personnelles imprimées sur papier ou autre matière ainsi que sur des documents doivent être soient broyées soient incinérées.\nCependant, les informations personnelles suivantes sont détruites après avoir été conservées pendant une certaine période conformément aux politiques internes :\nLes informations ci-dessous sont détruites après avoir été conservées pendant un an à compter de la date de retrait du service par l’utilisateur.\nCompte crypté PCL FREE PASS et numéro de téléphone mobile auquel un SMS a été envoyé dans le but d’envoyer des notifications et de traiter les demandes de service client après le retrait.\nHistoriques d’utilisation inappropriée\n\nEn outre, PCL Inc. conserve ou supprime séparément les informations personnelles de ses membres qui n’ont pas utilisé les Services depuis un an, conformément au système d’expiration des informations personnelles. Les informations conservées seront détruites après une conservation de quatre ans.\nEn plus de cela, PCL Inc. conserve d’autres informations personnelles qui ont besoin d’être conservées par la loi et leurs dispositions respectives.",
+                  "raw": "'Les informations personnelles de l’utilisateur doivent être immédiatement détruites une fois que le but de la collecte et de l’utilisation des informations personnelles est atteint. La procédure ainsi que la méthode de destruction sont les suivantes :\\nLes informations personnelles stockées dans des formats de fichiers électroniques doivent être supprimées à l’aide de moyens techniques qui assurent que les informations soient irrécupérables. Les informations personnelles imprimées sur papier ou autre matière ainsi que sur des documents doivent être soient broyées soient incinérées.\\nCependant, les informations personnelles suivantes sont détruites après avoir été conservées pendant une certaine période conformément aux politiques internes :\\nLes informations ci-dessous sont détruites après avoir été conservées pendant un an à compter de la date de retrait du service par l’utilisateur.\\nCompte crypté PCL FREE PASS et numéro de téléphone mobile auquel un SMS a été envoyé dans le but d’envoyer des notifications et de traiter les demandes de service client après le retrait.\\nHistoriques d’utilisation inappropriée\\n\\nEn outre, PCL Inc. conserve ou supprime séparément les informations personnelles de ses membres qui n’ont pas utilisé les Services depuis un an, conformément au système d’expiration des informations personnelles. Les informations conservées seront détruites après une conservation de quatre ans.\\nEn plus de cela, PCL Inc. conserve d’autres informations personnelles qui ont besoin d’être conservées par la loi et leurs dispositions respectives.'"
+                },
+                "value": "Les informations personnelles de l’utilisateur doivent être immédiatement détruites une fois que le but de la collecte et de l’utilisation des informations personnelles est atteint. La procédure ainsi que la méthode de destruction sont les suivantes :\nLes informations personnelles stockées dans des formats de fichiers électroniques doivent être supprimées à l’aide de moyens techniques qui assurent que les informations soient irrécupérables. Les informations personnelles imprimées sur papier ou autre matière ainsi que sur des documents doivent être soient broyées soient incinérées.\nCependant, les informations personnelles suivantes sont détruites après avoir été conservées pendant une certaine période conformément aux politiques internes :\nLes informations ci-dessous sont détruites après avoir été conservées pendant un an à compter de la date de retrait du service par l’utilisateur.\nCompte crypté PCL FREE PASS et numéro de téléphone mobile auquel un SMS a été envoyé dans le but d’envoyer des notifications et de traiter les demandes de service client après le retrait.\nHistoriques d’utilisation inappropriée\n\nEn outre, PCL Inc. conserve ou supprime séparément les informations personnelles de ses membres qui n’ont pas utilisé les Services depuis un an, conformément au système d’expiration des informations personnelles. Les informations conservées seront détruites après une conservation de quatre ans.\nEn plus de cela, PCL Inc. conserve d’autres informations personnelles qui ont besoin d’être conservées par la loi et leurs dispositions respectives."
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 8139,
+              "end": 9984,
+              "loc": {
+                "start": {
+                  "line": 41,
+                  "column": 2
+                },
+                "end": {
+                  "line": 42,
+                  "column": 1841
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 8139,
+                "end": 8141,
+                "loc": {
+                  "start": {
+                    "line": 41,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 41,
+                    "column": 4
+                  },
+                  "identifierName": "a6"
+                },
+                "name": "a6"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 8147,
+                "end": 9984,
+                "loc": {
+                  "start": {
+                    "line": 42,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 42,
+                    "column": 1841
+                  }
+                },
+                "extra": {
+                  "rawValue": "PCL Inc. protège les droits de ses utilisateurs.\nLes utilisateurs peuvent consulter et modifier leurs informations personnelles à tout moment (pour les utilisateurs âgés de 14 ans ou moins, par l’intermédiaire d’un représentant légal). De plus, ils peuvent à tout moment retirer leur accord sur la fourniture d’informations personnelles ou se retirer du service. Les utilisateurs peuvent se retirer du service ou retirer leurs informations personnelles en cliquant sur le bouton « Retirer » dans les « Services », ou contacter le Service client par écrit, par téléphone ou par mail. Si un utilisateur demande la révision de ses informations personnelles, les informations de cet utilisateur ne doivent pas être utilisées ou fournies jusqu’à ce que la révision soit terminée.\n\nDe plus, PCL Inc. peut utiliser des informations personnelles afin de fournir des services de marketing tels que des événements ainsi que des publicités, et demander à l’avance le consentement d’un utilisateur. Les utilisateurs peuvent retirer leur consentement à tout moment.\nLes demandes liées à ce qui précède peuvent être adressées sans délai si un utilisateur contacte le service client par écrit, par téléphone ou par mail.\nSi vous demandez la correction d’erreurs présentes dans vos informations personnelles, PCL Inc. n’utilisera ni ne fournira ces informations personnelles jusqu’à ce que la correction soit réalisée.\n\nSi j’ai des questions à l’égard de la protection de la vie privée ?\nPour tout(e) question, réclamation, commentaire ou autre question liée à la protection des informations personnelles survenant lors de votre utilisation des Services, veuillez contacter le responsable de la protection de la vie privée ou le service responsable. \nPCL Inc. fera de son mieux pour vous écouter et rapidement répondre à toutes vos questions.",
+                  "raw": "'PCL Inc. protège les droits de ses utilisateurs.\\nLes utilisateurs peuvent consulter et modifier leurs informations personnelles à tout moment (pour les utilisateurs âgés de 14 ans ou moins, par l’intermédiaire d’un représentant légal). De plus, ils peuvent à tout moment retirer leur accord sur la fourniture d’informations personnelles ou se retirer du service. Les utilisateurs peuvent se retirer du service ou retirer leurs informations personnelles en cliquant sur le bouton « Retirer » dans les « Services », ou contacter le Service client par écrit, par téléphone ou par mail. Si un utilisateur demande la révision de ses informations personnelles, les informations de cet utilisateur ne doivent pas être utilisées ou fournies jusqu’à ce que la révision soit terminée.\\n\\nDe plus, PCL Inc. peut utiliser des informations personnelles afin de fournir des services de marketing tels que des événements ainsi que des publicités, et demander à l’avance le consentement d’un utilisateur. Les utilisateurs peuvent retirer leur consentement à tout moment.\\nLes demandes liées à ce qui précède peuvent être adressées sans délai si un utilisateur contacte le service client par écrit, par téléphone ou par mail.\\nSi vous demandez la correction d’erreurs présentes dans vos informations personnelles, PCL Inc. n’utilisera ni ne fournira ces informations personnelles jusqu’à ce que la correction soit réalisée.\\n\\nSi j’ai des questions à l’égard de la protection de la vie privée ?\\nPour tout(e) question, réclamation, commentaire ou autre question liée à la protection des informations personnelles survenant lors de votre utilisation des Services, veuillez contacter le responsable de la protection de la vie privée ou le service responsable. \\nPCL Inc. fera de son mieux pour vous écouter et rapidement répondre à toutes vos questions.'"
+                },
+                "value": "PCL Inc. protège les droits de ses utilisateurs.\nLes utilisateurs peuvent consulter et modifier leurs informations personnelles à tout moment (pour les utilisateurs âgés de 14 ans ou moins, par l’intermédiaire d’un représentant légal). De plus, ils peuvent à tout moment retirer leur accord sur la fourniture d’informations personnelles ou se retirer du service. Les utilisateurs peuvent se retirer du service ou retirer leurs informations personnelles en cliquant sur le bouton « Retirer » dans les « Services », ou contacter le Service client par écrit, par téléphone ou par mail. Si un utilisateur demande la révision de ses informations personnelles, les informations de cet utilisateur ne doivent pas être utilisées ou fournies jusqu’à ce que la révision soit terminée.\n\nDe plus, PCL Inc. peut utiliser des informations personnelles afin de fournir des services de marketing tels que des événements ainsi que des publicités, et demander à l’avance le consentement d’un utilisateur. Les utilisateurs peuvent retirer leur consentement à tout moment.\nLes demandes liées à ce qui précède peuvent être adressées sans délai si un utilisateur contacte le service client par écrit, par téléphone ou par mail.\nSi vous demandez la correction d’erreurs présentes dans vos informations personnelles, PCL Inc. n’utilisera ni ne fournira ces informations personnelles jusqu’à ce que la correction soit réalisée.\n\nSi j’ai des questions à l’égard de la protection de la vie privée ?\nPour tout(e) question, réclamation, commentaire ou autre question liée à la protection des informations personnelles survenant lors de votre utilisation des Services, veuillez contacter le responsable de la protection de la vie privée ou le service responsable. \nPCL Inc. fera de son mieux pour vous écouter et rapidement répondre à toutes vos questions."
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 9988,
+              "end": 10161,
+              "loc": {
+                "start": {
+                  "line": 43,
+                  "column": 2
+                },
+                "end": {
+                  "line": 44,
+                  "column": 169
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 9988,
+                "end": 9990,
+                "loc": {
+                  "start": {
+                    "line": 43,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 43,
+                    "column": 4
+                  },
+                  "identifierName": "a7"
+                },
+                "name": "a7"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 9996,
+                "end": 10161,
+                "loc": {
+                  "start": {
+                    "line": 44,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 44,
+                    "column": 169
+                  }
+                },
+                "extra": {
+                  "rawValue": "οRepresentative for managing personal information\n- Department : Business Strategy Group\n- Designation :  CFO \n- Name : Kim InKyu\n- email : pclchip@pclchip.com",
+                  "raw": "'οRepresentative for managing personal information\\n- Department : Business Strategy Group\\n- Designation :  CFO \\n- Name : Kim InKyu\\n- email : pclchip@pclchip.com'"
+                },
+                "value": "οRepresentative for managing personal information\n- Department : Business Strategy Group\n- Designation :  CFO \n- Name : Kim InKyu\n- email : pclchip@pclchip.com"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 10165,
+              "end": 10754,
+              "loc": {
+                "start": {
+                  "line": 45,
+                  "column": 2
+                },
+                "end": {
+                  "line": 46,
+                  "column": 585
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 10165,
+                "end": 10167,
+                "loc": {
+                  "start": {
+                    "line": 45,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 45,
+                    "column": 4
+                  },
+                  "identifierName": "a8"
+                },
+                "name": "a8"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 10173,
+                "end": 10754,
+                "loc": {
+                  "start": {
+                    "line": 46,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 46,
+                    "column": 585
+                  }
+                },
+                "extra": {
+                  "rawValue": "Modification de la politique de confidentialité\nLa politique de confidentialité peut être modifiée dans le but de refléter tout changement lié aux lois ou aux services.\nSi la politique de confidentialité est modifiée, PCL Inc. notifiera cette modification à l’avance, et la politique de confidentialité modifiée prendra effet 7 jours après la notification de la modification.\nCependant, toute modification significative des droits des utilisateurs, y compris les informations personnelles à collecter et l’objectif de leur collecte, sera notifiée au moins 30 jours à l’avance.",
+                  "raw": "'Modification de la politique de confidentialité\\nLa politique de confidentialité peut être modifiée dans le but de refléter tout changement lié aux lois ou aux services.\\nSi la politique de confidentialité est modifiée, PCL Inc. notifiera cette modification à l’avance, et la politique de confidentialité modifiée prendra effet 7 jours après la notification de la modification.\\nCependant, toute modification significative des droits des utilisateurs, y compris les informations personnelles à collecter et l’objectif de leur collecte, sera notifiée au moins 30 jours à l’avance.'"
+                },
+                "value": "Modification de la politique de confidentialité\nLa politique de confidentialité peut être modifiée dans le but de refléter tout changement lié aux lois ou aux services.\nSi la politique de confidentialité est modifiée, PCL Inc. notifiera cette modification à l’avance, et la politique de confidentialité modifiée prendra effet 7 jours après la notification de la modification.\nCependant, toute modification significative des droits des utilisateurs, y compris les informations personnelles à collecter et l’objectif de leur collecte, sera notifiée au moins 30 jours à l’avance."
+              }
+            }
+          ],
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      }
+    ],
+    "directives": []
+  },
+  "comments": [],
+  "tokens": [
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 0,
+      "end": 6,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "default",
+      "start": 7,
+      "end": 14,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 7
+        },
+        "end": {
+          "line": 1,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 15,
+      "end": 16,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 15
+        },
+        "end": {
+          "line": 1,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "title",
+      "start": 19,
+      "end": 24,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "end": {
+          "line": 2,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 24,
+      "end": 25,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Terms and conditions",
+      "start": 26,
+      "end": 48,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 9
+        },
+        "end": {
+          "line": 2,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 48,
+      "end": 49,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "privacyPolicy",
+      "start": 52,
+      "end": 65,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 2
+        },
+        "end": {
+          "line": 3,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 65,
+      "end": 66,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 15
+        },
+        "end": {
+          "line": 3,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Politique de confidentialité",
+      "start": 67,
+      "end": 97,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 17
+        },
+        "end": {
+          "line": 3,
+          "column": 47
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 97,
+      "end": 98,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 47
+        },
+        "end": {
+          "line": 3,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "q1",
+      "start": 102,
+      "end": 104,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 5,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 104,
+      "end": 105,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+          "line": 5,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "1. Quelle est notre politique de confidentialité ?",
+      "start": 106,
+      "end": 158,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 6
+        },
+        "end": {
+          "line": 5,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 158,
+      "end": 159,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 58
+        },
+        "end": {
+          "line": 5,
+          "column": 59
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a1",
+      "start": 162,
+      "end": 164,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 6,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 164,
+      "end": 165,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 6,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "PCL Inc. respecte la confidentialité de ses utilisateurs. La politique de confidentialité décrit comment PCL Inc. collecte, utilise et fournit des données personnelles, sur la base du consentement de l’utilisateur, et garantit activement les droits (droit à l’autodétermination informationnelle) des utilisateurs. PCL Inc. se conforme aux lois applicables, aux réglementations en matière de protection des informations personnelles et aux directives de la République de Corée, qu'un fournisseur de services d’information et de communication doit respecter. Le terme « politique de traitement des informations personnelles » désigne les directives que l’entreprise doit respecter afin de protéger les informations personnelles précieuses des utilisateurs pour que ces derniers puissent utiliser le service en toute sécurité et en toute confiance. Cette politique de confidentialité s’applique aux services basés sur l’application PCL FREE PASS fournis par la société (ci-après dénommés « services »).",
+      "start": 170,
+      "end": 1171,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 7,
+          "column": 1005
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1171,
+      "end": 1172,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 1005
+        },
+        "end": {
+          "line": 7,
+          "column": 1006
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "q2",
+      "start": 1175,
+      "end": 1177,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 8,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1177,
+      "end": 1178,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 4
+        },
+        "end": {
+          "line": 8,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "2. Collecte d’informations personnelles",
+      "start": 1179,
+      "end": 1220,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 6
+        },
+        "end": {
+          "line": 8,
+          "column": 47
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1220,
+      "end": 1221,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 47
+        },
+        "end": {
+          "line": 8,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2",
+      "start": 1224,
+      "end": 1226,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1226,
+      "end": 1227,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "PCL Inc. collecte le minimum d’informations personnelles pour fournir les services suivants sur le site Web ou via des applications ou des logiciels individuels lorsqu’un utilisateur se connecte ou utilise un service.",
+      "start": 1232,
+      "end": 1451,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 4
+        },
+        "end": {
+          "line": 10,
+          "column": 223
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1451,
+      "end": 1452,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 223
+        },
+        "end": {
+          "line": 10,
+          "column": 224
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2q1",
+      "start": 1455,
+      "end": 1459,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1459,
+      "end": 1460,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 11,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Compte PCL FREE PASS",
+      "start": 1461,
+      "end": 1483,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1483,
+      "end": 1484,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 30
+        },
+        "end": {
+          "line": 11,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2a1",
+      "start": 1487,
+      "end": 1491,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1491,
+      "end": 1492,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 6
+        },
+        "end": {
+          "line": 12,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Informations obligatoires : numéro de téléphone portable, mot de passe, date de naissance, sexe",
+      "start": 1497,
+      "end": 1594,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": 101
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1594,
+      "end": 1595,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 101
+        },
+        "end": {
+          "line": 13,
+          "column": 102
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2q2",
+      "start": 1598,
+      "end": 1602,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1602,
+      "end": 1603,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 6
+        },
+        "end": {
+          "line": 14,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Pour vérifier l’identité",
+      "start": 1604,
+      "end": 1630,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 8
+        },
+        "end": {
+          "line": 14,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1630,
+      "end": 1631,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 34
+        },
+        "end": {
+          "line": 14,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2a2",
+      "start": 1634,
+      "end": 1638,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 2
+        },
+        "end": {
+          "line": 15,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1638,
+      "end": 1639,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 6
+        },
+        "end": {
+          "line": 15,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Nom, sexe, date de naissance, numéro de téléphone portable, fournisseur de services de communication, citoyen / étranger",
+      "start": 1644,
+      "end": 1766,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 4
+        },
+        "end": {
+          "line": 16,
+          "column": 126
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1766,
+      "end": 1767,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 126
+        },
+        "end": {
+          "line": 16,
+          "column": 127
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2q3",
+      "start": 1770,
+      "end": 1774,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 2
+        },
+        "end": {
+          "line": 17,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1774,
+      "end": 1775,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 6
+        },
+        "end": {
+          "line": 17,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Pour le consentement du représentant légal",
+      "start": 1776,
+      "end": 1820,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1820,
+      "end": 1821,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 52
+        },
+        "end": {
+          "line": 17,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2a3",
+      "start": 1824,
+      "end": 1828,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 2
+        },
+        "end": {
+          "line": 18,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1828,
+      "end": 1829,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 6
+        },
+        "end": {
+          "line": 18,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Informations sur le représentant légal (nom, sexe, date de naissance, numéro de téléphone portable, fournisseur de services, citoyen / étranger)",
+      "start": 1834,
+      "end": 1980,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 4
+        },
+        "end": {
+          "line": 19,
+          "column": 150
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1980,
+      "end": 1981,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 150
+        },
+        "end": {
+          "line": 19,
+          "column": 151
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2q4",
+      "start": 1984,
+      "end": 1988,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1988,
+      "end": 1989,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 6
+        },
+        "end": {
+          "line": 20,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Qu’est-ce que les informations requises ?",
+      "start": 1990,
+      "end": 2033,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 8
+        },
+        "end": {
+          "line": 20,
+          "column": 51
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2033,
+      "end": 2034,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 51
+        },
+        "end": {
+          "line": 20,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2a4",
+      "start": 2037,
+      "end": 2041,
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 21,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2041,
+      "end": 2042,
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 6
+        },
+        "end": {
+          "line": 21,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Informations nécessaires pour fournir les caractéristiques fondamentales du service",
+      "start": 2047,
+      "end": 2132,
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 89
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2132,
+      "end": 2133,
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 89
+        },
+        "end": {
+          "line": 22,
+          "column": 90
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2q5",
+      "start": 2136,
+      "end": 2140,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 2
+        },
+        "end": {
+          "line": 23,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2140,
+      "end": 2141,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 6
+        },
+        "end": {
+          "line": 23,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Qu’est-ce qu’une information facultative ?",
+      "start": 2142,
+      "end": 2186,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 8
+        },
+        "end": {
+          "line": 23,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2186,
+      "end": 2187,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 52
+        },
+        "end": {
+          "line": 23,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2a5",
+      "start": 2190,
+      "end": 2194,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 2
+        },
+        "end": {
+          "line": 24,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2194,
+      "end": 2195,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 6
+        },
+        "end": {
+          "line": 24,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Informations supplémentaires qui doivent être collectées afin de fournir des services plus spécialisés (il n’y a aucune restriction sur l’utilisation du service même si vous ne fournissez aucune information facultative).",
+      "start": 2200,
+      "end": 2422,
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 4
+        },
+        "end": {
+          "line": 25,
+          "column": 226
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2422,
+      "end": 2423,
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 226
+        },
+        "end": {
+          "line": 25,
+          "column": 227
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2a6",
+      "start": 2426,
+      "end": 2430,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 2
+        },
+        "end": {
+          "line": 26,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2430,
+      "end": 2431,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 6
+        },
+        "end": {
+          "line": 26,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Les informations personnelles sont collectées selon la méthode suivante :\nLors de la collecte d’informations personnelles, PCL Inc. en informe préalablement l’utilisateur et lui demande son consentement.\n. L’utilisateur accepte la collecte d’informations personnelles et saisit les informations pertinentes lors de l’inscription à un service ou lors de l’utilisation du service\n. Les informations personnelles sont fournies par le biais de services ou d’organisations affiliés\n. Les informations personnelles sont fournies via une page Web, un mail, par fax, par téléphone, etc. lors du service destiné au client\n. L’utilisateur participe à des événements en ligne/hors ligne\nLes informations personnelles collectées auprès des utilisateurs pendant que l’utilisateur utilise le service sont les suivantes.\n. Informations sur l’appareil (OS, taille de l’écran, identifiant de l’appareil, nom du modèle de l’appareil, etc.), adresse IP, cookies, dates de visite, historiques d’utilisation illégale, historiques d’utilisation de service, etc.\nLes informations peuvent être automatiquement générées puis collectées.\nLes informations personnelles sont fournies par des tiers dans le cadre de partenariats ou de services associés.",
+      "start": 2436,
+      "end": 3671,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 1239
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 3671,
+      "end": 3672,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 1239
+        },
+        "end": {
+          "line": 27,
+          "column": 1240
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "q3",
+      "start": 3676,
+      "end": 3678,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 2
+        },
+        "end": {
+          "line": 29,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 3678,
+      "end": 3679,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 4
+        },
+        "end": {
+          "line": 29,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "3. Utilisation des informations personnelles",
+      "start": 3680,
+      "end": 3726,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 6
+        },
+        "end": {
+          "line": 29,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 3726,
+      "end": 3727,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 52
+        },
+        "end": {
+          "line": 29,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a3",
+      "start": 3730,
+      "end": 3732,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 2
+        },
+        "end": {
+          "line": 30,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 3732,
+      "end": 3733,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 4
+        },
+        "end": {
+          "line": 30,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Les informations personnelles sont utilisées pour gérer l’adhésion, fournir puis améliorer les services et développer de nouveaux services.\nLes informations personnelles sont collectées dans la mesure minimale requise afin de fournir des services lorsque l’utilisateur s’inscrit au service ou pendant que l’utilisateur utilise les services via la page d’accueil, les applications et logiciels individuels, etc.\n- Identification du membre, confirmation de la volonté de l’utilisateur à s’inscrire, vérification de l’utilisateur et de l’âge, prévention des utilisations inappropriées\n- Confirmation du consentement d’un représentant légal en cas de collecte d’informations personnelles d’enfants de moins de 14 ans, vérification de l’identité du représentant légal par la suite\n- Fourniture de diverses fonctions telles que la recherche ainsi que l’enregistrement des utilisateurs, le développement de nouveaux services, la fourniture de divers services, le traitement des demandes et des plaintes, la livraison de notifications\n- Envoi de contenus, etc. auprès des utilisateurs de services payants ou d’expédition / de paiement\n- Prévention et sanction de tout acte interrompant le fonctionnement normal du service (notamment vol de compte et utilisation frauduleuse, etc.)\n- Fourniture de recommandation de contenu personnalisé et marketing basé sur l’analyse des caractéristiques démographiques et des intérêts, préférences et propensions des utilisateurs\n- Statistiques basées sur l’historique d’utilisation des services, la fréquence des visites et de l’utilisation des services ; développement d’un environnement de service pour protéger la vie privée ; développement de services personnalisés ; amélioration des services.",
+      "start": 3738,
+      "end": 5474,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 4
+        },
+        "end": {
+          "line": 31,
+          "column": 1740
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 5474,
+      "end": 5475,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 1740
+        },
+        "end": {
+          "line": 31,
+          "column": 1741
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "q4",
+      "start": 5479,
+      "end": 5481,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 2
+        },
+        "end": {
+          "line": 33,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 5481,
+      "end": 5482,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 4
+        },
+        "end": {
+          "line": 33,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "4. Fourniture des informations personnelles",
+      "start": 5483,
+      "end": 5528,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 6
+        },
+        "end": {
+          "line": 33,
+          "column": 51
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 5528,
+      "end": 5529,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 51
+        },
+        "end": {
+          "line": 33,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a4",
+      "start": 5532,
+      "end": 5534,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 2
+        },
+        "end": {
+          "line": 34,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 5534,
+      "end": 5535,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 4
+        },
+        "end": {
+          "line": 34,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "PCL Inc. ne fournit aucune information personnelle à un tiers sans le consentement de l’utilisateur ou à moins que les lois et règlements applicables ne l’exigent.\nPCL Inc. confie les informations personnelles suivantes à un tiers pour connecter les Services Kakao à des services tiers.\nPCL Inc. ne divulgue pas les informations personnelles d’un utilisateur à des tiers sans le consentement préalable de l’utilisateur. Cependant, les informations personnelles peuvent être fournies à des tiers avec le consentement de l’utilisateur dans la mesure nécessaire afin que l’utilisateur puisse utiliser les services des sociétés partenaires de PCL Inc.\nPCL Inc. fournit des informations personnelles à des tiers dans le cadre de la délégation de certaines parties des affaires nécessaires à la prestation de services. PCL Inc. supervise et surveille également les parties mandatées afin de prévenir toute violation des lois et règlements applicables.",
+      "start": 5540,
+      "end": 6490,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 4
+        },
+        "end": {
+          "line": 35,
+          "column": 954
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 6490,
+      "end": 6491,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 954
+        },
+        "end": {
+          "line": 35,
+          "column": 955
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "q5",
+      "start": 6495,
+      "end": 6497,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 2
+        },
+        "end": {
+          "line": 37,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 6497,
+      "end": 6498,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 4
+        },
+        "end": {
+          "line": 37,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "5. Destruction des informations personnelles",
+      "start": 6499,
+      "end": 6545,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 6
+        },
+        "end": {
+          "line": 37,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 6545,
+      "end": 6546,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 52
+        },
+        "end": {
+          "line": 37,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a5",
+      "start": 6549,
+      "end": 6551,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 2
+        },
+        "end": {
+          "line": 38,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 6551,
+      "end": 6552,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 4
+        },
+        "end": {
+          "line": 38,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Les informations personnelles de l’utilisateur doivent être immédiatement détruites une fois que le but de la collecte et de l’utilisation des informations personnelles est atteint. La procédure ainsi que la méthode de destruction sont les suivantes :\nLes informations personnelles stockées dans des formats de fichiers électroniques doivent être supprimées à l’aide de moyens techniques qui assurent que les informations soient irrécupérables. Les informations personnelles imprimées sur papier ou autre matière ainsi que sur des documents doivent être soient broyées soient incinérées.\nCependant, les informations personnelles suivantes sont détruites après avoir été conservées pendant une certaine période conformément aux politiques internes :\nLes informations ci-dessous sont détruites après avoir été conservées pendant un an à compter de la date de retrait du service par l’utilisateur.\nCompte crypté PCL FREE PASS et numéro de téléphone mobile auquel un SMS a été envoyé dans le but d’envoyer des notifications et de traiter les demandes de service client après le retrait.\nHistoriques d’utilisation inappropriée\n\nEn outre, PCL Inc. conserve ou supprime séparément les informations personnelles de ses membres qui n’ont pas utilisé les Services depuis un an, conformément au système d’expiration des informations personnelles. Les informations conservées seront détruites après une conservation de quatre ans.\nEn plus de cela, PCL Inc. conserve d’autres informations personnelles qui ont besoin d’être conservées par la loi et leurs dispositions respectives.",
+      "start": 6557,
+      "end": 8134,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 4
+        },
+        "end": {
+          "line": 39,
+          "column": 1581
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 8134,
+      "end": 8135,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 1581
+        },
+        "end": {
+          "line": 39,
+          "column": 1582
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a6",
+      "start": 8139,
+      "end": 8141,
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 2
+        },
+        "end": {
+          "line": 41,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 8141,
+      "end": 8142,
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 4
+        },
+        "end": {
+          "line": 41,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "PCL Inc. protège les droits de ses utilisateurs.\nLes utilisateurs peuvent consulter et modifier leurs informations personnelles à tout moment (pour les utilisateurs âgés de 14 ans ou moins, par l’intermédiaire d’un représentant légal). De plus, ils peuvent à tout moment retirer leur accord sur la fourniture d’informations personnelles ou se retirer du service. Les utilisateurs peuvent se retirer du service ou retirer leurs informations personnelles en cliquant sur le bouton « Retirer » dans les « Services », ou contacter le Service client par écrit, par téléphone ou par mail. Si un utilisateur demande la révision de ses informations personnelles, les informations de cet utilisateur ne doivent pas être utilisées ou fournies jusqu’à ce que la révision soit terminée.\n\nDe plus, PCL Inc. peut utiliser des informations personnelles afin de fournir des services de marketing tels que des événements ainsi que des publicités, et demander à l’avance le consentement d’un utilisateur. Les utilisateurs peuvent retirer leur consentement à tout moment.\nLes demandes liées à ce qui précède peuvent être adressées sans délai si un utilisateur contacte le service client par écrit, par téléphone ou par mail.\nSi vous demandez la correction d’erreurs présentes dans vos informations personnelles, PCL Inc. n’utilisera ni ne fournira ces informations personnelles jusqu’à ce que la correction soit réalisée.\n\nSi j’ai des questions à l’égard de la protection de la vie privée ?\nPour tout(e) question, réclamation, commentaire ou autre question liée à la protection des informations personnelles survenant lors de votre utilisation des Services, veuillez contacter le responsable de la protection de la vie privée ou le service responsable. \nPCL Inc. fera de son mieux pour vous écouter et rapidement répondre à toutes vos questions.",
+      "start": 8147,
+      "end": 9984,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 4
+        },
+        "end": {
+          "line": 42,
+          "column": 1841
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 9984,
+      "end": 9985,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 1841
+        },
+        "end": {
+          "line": 42,
+          "column": 1842
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a7",
+      "start": 9988,
+      "end": 9990,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 2
+        },
+        "end": {
+          "line": 43,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 9990,
+      "end": 9991,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 4
+        },
+        "end": {
+          "line": 43,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "οRepresentative for managing personal information\n- Department : Business Strategy Group\n- Designation :  CFO \n- Name : Kim InKyu\n- email : pclchip@pclchip.com",
+      "start": 9996,
+      "end": 10161,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 4
+        },
+        "end": {
+          "line": 44,
+          "column": 169
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 10161,
+      "end": 10162,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 169
+        },
+        "end": {
+          "line": 44,
+          "column": 170
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a8",
+      "start": 10165,
+      "end": 10167,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 2
+        },
+        "end": {
+          "line": 45,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 10167,
+      "end": 10168,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 4
+        },
+        "end": {
+          "line": 45,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Modification de la politique de confidentialité\nLa politique de confidentialité peut être modifiée dans le but de refléter tout changement lié aux lois ou aux services.\nSi la politique de confidentialité est modifiée, PCL Inc. notifiera cette modification à l’avance, et la politique de confidentialité modifiée prendra effet 7 jours après la notification de la modification.\nCependant, toute modification significative des droits des utilisateurs, y compris les informations personnelles à collecter et l’objectif de leur collecte, sera notifiée au moins 30 jours à l’avance.",
+      "start": 10173,
+      "end": 10754,
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 4
+        },
+        "end": {
+          "line": 46,
+          "column": 585
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 10754,
+      "end": 10755,
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 585
+        },
+        "end": {
+          "line": 46,
+          "column": 586
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 10756,
+      "end": 10757,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 0
+        },
+        "end": {
+          "line": 47,
+          "column": 1
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 10757,
+      "end": 10758,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 1
+        },
+        "end": {
+          "line": 47,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 10759,
+      "end": 10759,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 0
+        },
+        "end": {
+          "line": 48,
+          "column": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,4389 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 2819,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 45,
+      "column": 0
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 2819,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 45,
+        "column": 0
+      }
+    },
+    "sourceType": "module",
+    "body": [
+      {
+        "type": "ExportDefaultDeclaration",
+        "start": 0,
+        "end": 2818,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 44,
+            "column": 2
+          }
+        },
+        "declaration": {
+          "type": "ObjectExpression",
+          "start": 15,
+          "end": 2817,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 15
+            },
+            "end": {
+              "line": 44,
+              "column": 1
+            }
+          },
+          "properties": [
+            {
+              "type": "ObjectProperty",
+              "start": 19,
+              "end": 48,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 2
+                },
+                "end": {
+                  "line": 2,
+                  "column": 31
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 19,
+                "end": 24,
+                "loc": {
+                  "start": {
+                    "line": 2,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 7
+                  },
+                  "identifierName": "title"
+                },
+                "name": "title"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 26,
+                "end": 48,
+                "loc": {
+                  "start": {
+                    "line": 2,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 31
+                  }
+                },
+                "extra": {
+                  "rawValue": "Terms and conditions",
+                  "raw": "'Terms and conditions'"
+                },
+                "value": "Terms and conditions"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 52,
+              "end": 73,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 2
+                },
+                "end": {
+                  "line": 3,
+                  "column": 23
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 52,
+                "end": 65,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 15
+                  },
+                  "identifierName": "privacyPolicy"
+                },
+                "name": "privacyPolicy"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 67,
+                "end": 73,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 17
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 23
+                  }
+                },
+                "extra": {
+                  "rawValue": "隐私政策",
+                  "raw": "'隐私政策'"
+                },
+                "value": "隐私政策"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 78,
+              "end": 97,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 2
+                },
+                "end": {
+                  "line": 5,
+                  "column": 21
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 78,
+                "end": 80,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 4
+                  },
+                  "identifierName": "q1"
+                },
+                "name": "q1"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 82,
+                "end": 97,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 6
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 21
+                  }
+                },
+                "extra": {
+                  "rawValue": "1.我们的隐私政策是什么？",
+                  "raw": "'1.我们的隐私政策是什么？'"
+                },
+                "value": "1.我们的隐私政策是什么？"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 101,
+              "end": 324,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 2
+                },
+                "end": {
+                  "line": 7,
+                  "column": 219
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 101,
+                "end": 103,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 4
+                  },
+                  "identifierName": "a1"
+                },
+                "name": "a1"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 109,
+                "end": 324,
+                "loc": {
+                  "start": {
+                    "line": 7,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 7,
+                    "column": 219
+                  }
+                },
+                "extra": {
+                  "rawValue": "PCL Inc.重视用户隐私。隐私政策描述了PCL Inc.如何在用户同意的基础上收集、使用和提供个人数据，并积极保障用户权利（信息自决权）。作为信息和通信服务提供商，PCL Inc.遵守大韩民国的适用法律、个人信息保护法规和准则。术语“个人信息处理政策”是指本公司为保护用户宝贵的个人信息，使用户能够安心使用服务而必须遵守的政策。本隐私政策适用于本公司提供的基于PCL FREE PASS应用程序的服务（以下简称“服务”）。",
+                  "raw": "'PCL Inc.重视用户隐私。隐私政策描述了PCL Inc.如何在用户同意的基础上收集、使用和提供个人数据，并积极保障用户权利（信息自决权）。作为信息和通信服务提供商，PCL Inc.遵守大韩民国的适用法律、个人信息保护法规和准则。术语“个人信息处理政策”是指本公司为保护用户宝贵的个人信息，使用户能够安心使用服务而必须遵守的政策。本隐私政策适用于本公司提供的基于PCL FREE PASS应用程序的服务（以下简称“服务”）。'"
+                },
+                "value": "PCL Inc.重视用户隐私。隐私政策描述了PCL Inc.如何在用户同意的基础上收集、使用和提供个人数据，并积极保障用户权利（信息自决权）。作为信息和通信服务提供商，PCL Inc.遵守大韩民国的适用法律、个人信息保护法规和准则。术语“个人信息处理政策”是指本公司为保护用户宝贵的个人信息，使用户能够安心使用服务而必须遵守的政策。本隐私政策适用于本公司提供的基于PCL FREE PASS应用程序的服务（以下简称“服务”）。"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 328,
+              "end": 343,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 2
+                },
+                "end": {
+                  "line": 8,
+                  "column": 17
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 328,
+                "end": 330,
+                "loc": {
+                  "start": {
+                    "line": 8,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 8,
+                    "column": 4
+                  },
+                  "identifierName": "q2"
+                },
+                "name": "q2"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 332,
+                "end": 343,
+                "loc": {
+                  "start": {
+                    "line": 8,
+                    "column": 6
+                  },
+                  "end": {
+                    "line": 8,
+                    "column": 17
+                  }
+                },
+                "extra": {
+                  "rawValue": "2.个人信息的收集",
+                  "raw": "'2.个人信息的收集'"
+                },
+                "value": "2.个人信息的收集"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 347,
+              "end": 413,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 2
+                },
+                "end": {
+                  "line": 10,
+                  "column": 62
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 347,
+                "end": 349,
+                "loc": {
+                  "start": {
+                    "line": 9,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 4
+                  },
+                  "identifierName": "a2"
+                },
+                "name": "a2"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 355,
+                "end": 413,
+                "loc": {
+                  "start": {
+                    "line": 10,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 10,
+                    "column": 62
+                  }
+                },
+                "extra": {
+                  "rawValue": "PCL Inc.收集最低限度的个人信息，以便在用户登录或使用服务时在网站上或通过个人应用程序或程序提供以下服务。",
+                  "raw": "'PCL Inc.收集最低限度的个人信息，以便在用户登录或使用服务时在网站上或通过个人应用程序或程序提供以下服务。'"
+                },
+                "value": "PCL Inc.收集最低限度的个人信息，以便在用户登录或使用服务时在网站上或通过个人应用程序或程序提供以下服务。"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 417,
+              "end": 440,
+              "loc": {
+                "start": {
+                  "line": 11,
+                  "column": 2
+                },
+                "end": {
+                  "line": 11,
+                  "column": 25
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 417,
+                "end": 421,
+                "loc": {
+                  "start": {
+                    "line": 11,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 6
+                  },
+                  "identifierName": "a2q1"
+                },
+                "name": "a2q1"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 423,
+                "end": 440,
+                "loc": {
+                  "start": {
+                    "line": 11,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 25
+                  }
+                },
+                "extra": {
+                  "rawValue": "PCL FREE PASS帐户",
+                  "raw": "'PCL FREE PASS帐户'"
+                },
+                "value": "PCL FREE PASS帐户"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 444,
+              "end": 470,
+              "loc": {
+                "start": {
+                  "line": 12,
+                  "column": 2
+                },
+                "end": {
+                  "line": 12,
+                  "column": 28
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 444,
+                "end": 448,
+                "loc": {
+                  "start": {
+                    "line": 12,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 12,
+                    "column": 6
+                  },
+                  "identifierName": "a2a1"
+                },
+                "name": "a2a1"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 450,
+                "end": 470,
+                "loc": {
+                  "start": {
+                    "line": 12,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 12,
+                    "column": 28
+                  }
+                },
+                "extra": {
+                  "rawValue": "必填：手机号码，密码，出生日期，性别",
+                  "raw": "'必填：手机号码，密码，出生日期，性别'"
+                },
+                "value": "必填：手机号码，密码，出生日期，性别"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 474,
+              "end": 488,
+              "loc": {
+                "start": {
+                  "line": 13,
+                  "column": 2
+                },
+                "end": {
+                  "line": 13,
+                  "column": 16
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 474,
+                "end": 478,
+                "loc": {
+                  "start": {
+                    "line": 13,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 13,
+                    "column": 6
+                  },
+                  "identifierName": "a2q2"
+                },
+                "name": "a2q2"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 480,
+                "end": 488,
+                "loc": {
+                  "start": {
+                    "line": 13,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 13,
+                    "column": 16
+                  }
+                },
+                "extra": {
+                  "rawValue": "验证个人身份",
+                  "raw": "'验证个人身份'"
+                },
+                "value": "验证个人身份"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 492,
+              "end": 530,
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 2
+                },
+                "end": {
+                  "line": 14,
+                  "column": 40
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 492,
+                "end": 496,
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 14,
+                    "column": 6
+                  },
+                  "identifierName": "a2a2"
+                },
+                "name": "a2a2"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 498,
+                "end": 530,
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 14,
+                    "column": 40
+                  }
+                },
+                "extra": {
+                  "rawValue": "姓名，性别，出生日期，手机号码，通信服务提供商，公民/外国人",
+                  "raw": "'姓名，性别，出生日期，手机号码，通信服务提供商，公民/外国人'"
+                },
+                "value": "姓名，性别，出生日期，手机号码，通信服务提供商，公民/外国人"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 534,
+              "end": 551,
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 2
+                },
+                "end": {
+                  "line": 15,
+                  "column": 19
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 534,
+                "end": 538,
+                "loc": {
+                  "start": {
+                    "line": 15,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 15,
+                    "column": 6
+                  },
+                  "identifierName": "a2q3"
+                },
+                "name": "a2q3"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 540,
+                "end": 551,
+                "loc": {
+                  "start": {
+                    "line": 15,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 15,
+                    "column": 19
+                  }
+                },
+                "extra": {
+                  "rawValue": "获得法定代表人同意",
+                  "raw": "'获得法定代表人同意'"
+                },
+                "value": "获得法定代表人同意"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 555,
+              "end": 604,
+              "loc": {
+                "start": {
+                  "line": 16,
+                  "column": 2
+                },
+                "end": {
+                  "line": 17,
+                  "column": 43
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 555,
+                "end": 559,
+                "loc": {
+                  "start": {
+                    "line": 16,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 16,
+                    "column": 6
+                  },
+                  "identifierName": "a2a3"
+                },
+                "name": "a2a3"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 565,
+                "end": 604,
+                "loc": {
+                  "start": {
+                    "line": 17,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 17,
+                    "column": 43
+                  }
+                },
+                "extra": {
+                  "rawValue": "法定代表人信息（姓名，性别，出生日期，手机号码，服务提供商，公民/外国人）",
+                  "raw": "'法定代表人信息（姓名，性别，出生日期，手机号码，服务提供商，公民/外国人）'"
+                },
+                "value": "法定代表人信息（姓名，性别，出生日期，手机号码，服务提供商，公民/外国人）"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 608,
+              "end": 624,
+              "loc": {
+                "start": {
+                  "line": 18,
+                  "column": 2
+                },
+                "end": {
+                  "line": 18,
+                  "column": 18
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 608,
+                "end": 612,
+                "loc": {
+                  "start": {
+                    "line": 18,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 18,
+                    "column": 6
+                  },
+                  "identifierName": "a2q4"
+                },
+                "name": "a2q4"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 614,
+                "end": 624,
+                "loc": {
+                  "start": {
+                    "line": 18,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 18,
+                    "column": 18
+                  }
+                },
+                "extra": {
+                  "rawValue": "什么是必填信息？",
+                  "raw": "'什么是必填信息？'"
+                },
+                "value": "什么是必填信息？"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 628,
+              "end": 649,
+              "loc": {
+                "start": {
+                  "line": 19,
+                  "column": 2
+                },
+                "end": {
+                  "line": 19,
+                  "column": 23
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 628,
+                "end": 632,
+                "loc": {
+                  "start": {
+                    "line": 19,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 19,
+                    "column": 6
+                  },
+                  "identifierName": "a2a4"
+                },
+                "name": "a2a4"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 634,
+                "end": 649,
+                "loc": {
+                  "start": {
+                    "line": 19,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 19,
+                    "column": 23
+                  }
+                },
+                "extra": {
+                  "rawValue": "提供服务基本功能所需的信息",
+                  "raw": "'提供服务基本功能所需的信息'"
+                },
+                "value": "提供服务基本功能所需的信息"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 653,
+              "end": 669,
+              "loc": {
+                "start": {
+                  "line": 20,
+                  "column": 2
+                },
+                "end": {
+                  "line": 20,
+                  "column": 18
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 653,
+                "end": 657,
+                "loc": {
+                  "start": {
+                    "line": 20,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 20,
+                    "column": 6
+                  },
+                  "identifierName": "a2q5"
+                },
+                "name": "a2q5"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 659,
+                "end": 669,
+                "loc": {
+                  "start": {
+                    "line": 20,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 20,
+                    "column": 18
+                  }
+                },
+                "extra": {
+                  "rawValue": "什么是可选信息？",
+                  "raw": "'什么是可选信息？'"
+                },
+                "value": "什么是可选信息？"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 673,
+              "end": 727,
+              "loc": {
+                "start": {
+                  "line": 21,
+                  "column": 2
+                },
+                "end": {
+                  "line": 22,
+                  "column": 48
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 673,
+                "end": 677,
+                "loc": {
+                  "start": {
+                    "line": 21,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 21,
+                    "column": 6
+                  },
+                  "identifierName": "a2a5"
+                },
+                "name": "a2a5"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 683,
+                "end": 727,
+                "loc": {
+                  "start": {
+                    "line": 22,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 22,
+                    "column": 48
+                  }
+                },
+                "extra": {
+                  "rawValue": "为提供更专业的服务而需要收集的额外信息（即使没有提供可选信息，也没有限制使用服务。）",
+                  "raw": "'为提供更专业的服务而需要收集的额外信息（即使没有提供可选信息，也没有限制使用服务。）'"
+                },
+                "value": "为提供更专业的服务而需要收集的额外信息（即使没有提供可选信息，也没有限制使用服务。）"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 731,
+              "end": 1014,
+              "loc": {
+                "start": {
+                  "line": 23,
+                  "column": 2
+                },
+                "end": {
+                  "line": 24,
+                  "column": 277
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 731,
+                "end": 735,
+                "loc": {
+                  "start": {
+                    "line": 23,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 23,
+                    "column": 6
+                  },
+                  "identifierName": "a2a6"
+                },
+                "name": "a2a6"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 741,
+                "end": 1014,
+                "loc": {
+                  "start": {
+                    "line": 24,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 24,
+                    "column": 277
+                  }
+                },
+                "extra": {
+                  "rawValue": "通过以下方法收集个人信息：\n在收集个人信息时，PCL Inc.会提前通知用户并征求其同意。\n.用户同意在注册服务或使用服务时收集个人信息并输入相关信息\n.通过附属服务或组织提供个人信息\n.在客户服务过程中，通过网页、电子邮件、传真、电话等方式提供个人信息\n.用户参与线上/线下活动\n在用户使用服务时向用户收集的个人信息如下。\n.设备信息（操作系统、屏幕尺寸、设备ID、设备型号名称等）、IP地址、cookies、访问日期、非法使用记录、服务使用记录等。\n信息可以自动生成和收集。\n由第三方通过合作伙伴或相关服务提供个人信息。",
+                  "raw": "'通过以下方法收集个人信息：\\n在收集个人信息时，PCL Inc.会提前通知用户并征求其同意。\\n.用户同意在注册服务或使用服务时收集个人信息并输入相关信息\\n.通过附属服务或组织提供个人信息\\n.在客户服务过程中，通过网页、电子邮件、传真、电话等方式提供个人信息\\n.用户参与线上/线下活动\\n在用户使用服务时向用户收集的个人信息如下。\\n.设备信息（操作系统、屏幕尺寸、设备ID、设备型号名称等）、IP地址、cookies、访问日期、非法使用记录、服务使用记录等。\\n信息可以自动生成和收集。\\n由第三方通过合作伙伴或相关服务提供个人信息。'"
+                },
+                "value": "通过以下方法收集个人信息：\n在收集个人信息时，PCL Inc.会提前通知用户并征求其同意。\n.用户同意在注册服务或使用服务时收集个人信息并输入相关信息\n.通过附属服务或组织提供个人信息\n.在客户服务过程中，通过网页、电子邮件、传真、电话等方式提供个人信息\n.用户参与线上/线下活动\n在用户使用服务时向用户收集的个人信息如下。\n.设备信息（操作系统、屏幕尺寸、设备ID、设备型号名称等）、IP地址、cookies、访问日期、非法使用记录、服务使用记录等。\n信息可以自动生成和收集。\n由第三方通过合作伙伴或相关服务提供个人信息。"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1019,
+              "end": 1034,
+              "loc": {
+                "start": {
+                  "line": 26,
+                  "column": 2
+                },
+                "end": {
+                  "line": 26,
+                  "column": 17
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1019,
+                "end": 1021,
+                "loc": {
+                  "start": {
+                    "line": 26,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 26,
+                    "column": 4
+                  },
+                  "identifierName": "q3"
+                },
+                "name": "q3"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1023,
+                "end": 1034,
+                "loc": {
+                  "start": {
+                    "line": 26,
+                    "column": 6
+                  },
+                  "end": {
+                    "line": 26,
+                    "column": 17
+                  }
+                },
+                "extra": {
+                  "rawValue": "3.个人信息的使用",
+                  "raw": "'3.个人信息的使用'"
+                },
+                "value": "3.个人信息的使用"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1038,
+              "end": 1400,
+              "loc": {
+                "start": {
+                  "line": 27,
+                  "column": 2
+                },
+                "end": {
+                  "line": 28,
+                  "column": 358
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1038,
+                "end": 1040,
+                "loc": {
+                  "start": {
+                    "line": 27,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 27,
+                    "column": 4
+                  },
+                  "identifierName": "a3"
+                },
+                "name": "a3"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1046,
+                "end": 1400,
+                "loc": {
+                  "start": {
+                    "line": 28,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 28,
+                    "column": 358
+                  }
+                },
+                "extra": {
+                  "rawValue": "个人信息用于管理会员、提供和改进服务以及开发新服务。\n在用户注册服务或用户使用服务时，通过主页、个人应用程序和程序等在提供服务所需的最低限度内收集个人信息。\n- 会员身份识别，用户注册意愿确认，用户和年龄验证，防止不当使用\n- 在收集未满14岁儿童的个人信息时，确认已获得法定代表人的同意，然后验证法定代表人的身份\n- 提供用户搜索和注册、新服务开发、各种服务提供、查询和投诉处理、通知推送等各种功能\n- 向付费服务或送货/付款用户发送内容等\n- 防止和制裁任何中断正常服务运营的行为（包括盗用账号和欺诈使用等）\n- 根据人群统计特征和用户的兴趣、偏好和倾向分析提供定制化内容推荐和营销\n- 基于服务使用记录、访问频率和服务使用的统计数据；隐私环境服务环境开发；定制化服务开发；服务改进。",
+                  "raw": "'个人信息用于管理会员、提供和改进服务以及开发新服务。\\n在用户注册服务或用户使用服务时，通过主页、个人应用程序和程序等在提供服务所需的最低限度内收集个人信息。\\n- 会员身份识别，用户注册意愿确认，用户和年龄验证，防止不当使用\\n- 在收集未满14岁儿童的个人信息时，确认已获得法定代表人的同意，然后验证法定代表人的身份\\n- 提供用户搜索和注册、新服务开发、各种服务提供、查询和投诉处理、通知推送等各种功能\\n- 向付费服务或送货/付款用户发送内容等\\n- 防止和制裁任何中断正常服务运营的行为（包括盗用账号和欺诈使用等）\\n- 根据人群统计特征和用户的兴趣、偏好和倾向分析提供定制化内容推荐和营销\\n- 基于服务使用记录、访问频率和服务使用的统计数据；隐私环境服务环境开发；定制化服务开发；服务改进。'"
+                },
+                "value": "个人信息用于管理会员、提供和改进服务以及开发新服务。\n在用户注册服务或用户使用服务时，通过主页、个人应用程序和程序等在提供服务所需的最低限度内收集个人信息。\n- 会员身份识别，用户注册意愿确认，用户和年龄验证，防止不当使用\n- 在收集未满14岁儿童的个人信息时，确认已获得法定代表人的同意，然后验证法定代表人的身份\n- 提供用户搜索和注册、新服务开发、各种服务提供、查询和投诉处理、通知推送等各种功能\n- 向付费服务或送货/付款用户发送内容等\n- 防止和制裁任何中断正常服务运营的行为（包括盗用账号和欺诈使用等）\n- 根据人群统计特征和用户的兴趣、偏好和倾向分析提供定制化内容推荐和营销\n- 基于服务使用记录、访问频率和服务使用的统计数据；隐私环境服务环境开发；定制化服务开发；服务改进。"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1405,
+              "end": 1420,
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 2
+                },
+                "end": {
+                  "line": 30,
+                  "column": 17
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1405,
+                "end": 1407,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 4
+                  },
+                  "identifierName": "q4"
+                },
+                "name": "q4"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1409,
+                "end": 1420,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 6
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 17
+                  }
+                },
+                "extra": {
+                  "rawValue": "4.个人信息的提供",
+                  "raw": "'4.个人信息的提供'"
+                },
+                "value": "4.个人信息的提供"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1424,
+              "end": 1686,
+              "loc": {
+                "start": {
+                  "line": 31,
+                  "column": 2
+                },
+                "end": {
+                  "line": 32,
+                  "column": 258
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1424,
+                "end": 1426,
+                "loc": {
+                  "start": {
+                    "line": 31,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 31,
+                    "column": 4
+                  },
+                  "identifierName": "a4"
+                },
+                "name": "a4"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1432,
+                "end": 1686,
+                "loc": {
+                  "start": {
+                    "line": 32,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 32,
+                    "column": 258
+                  }
+                },
+                "extra": {
+                  "rawValue": "未经用户同意或在适用法律法规未提出要求的情况下，PCL Inc.不会向任何第三方提供个人信息。\nPCL Inc.将以下个人信息委托给第三方，以将Kakao服务连接到第三方服务。\n未经用户事先同意，PCL Inc.不会向第三方披露用户个人信息。但是，在用户使用PCL Inc.合伙人公司的服务的必要情况下，可能会在用户同意的情况下向第三方提供个人信息。\nPCL Inc.在委托提供服务所需的部分事务的过程中向第三方提供个人信息。\nPCL Inc.还对受托方进行监督和监控，以防止其违反适用法律法规。",
+                  "raw": "'未经用户同意或在适用法律法规未提出要求的情况下，PCL Inc.不会向任何第三方提供个人信息。\\nPCL Inc.将以下个人信息委托给第三方，以将Kakao服务连接到第三方服务。\\n未经用户事先同意，PCL Inc.不会向第三方披露用户个人信息。但是，在用户使用PCL Inc.合伙人公司的服务的必要情况下，可能会在用户同意的情况下向第三方提供个人信息。\\nPCL Inc.在委托提供服务所需的部分事务的过程中向第三方提供个人信息。\\nPCL Inc.还对受托方进行监督和监控，以防止其违反适用法律法规。'"
+                },
+                "value": "未经用户同意或在适用法律法规未提出要求的情况下，PCL Inc.不会向任何第三方提供个人信息。\nPCL Inc.将以下个人信息委托给第三方，以将Kakao服务连接到第三方服务。\n未经用户事先同意，PCL Inc.不会向第三方披露用户个人信息。但是，在用户使用PCL Inc.合伙人公司的服务的必要情况下，可能会在用户同意的情况下向第三方提供个人信息。\nPCL Inc.在委托提供服务所需的部分事务的过程中向第三方提供个人信息。\nPCL Inc.还对受托方进行监督和监控，以防止其违反适用法律法规。"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1691,
+              "end": 1706,
+              "loc": {
+                "start": {
+                  "line": 34,
+                  "column": 2
+                },
+                "end": {
+                  "line": 34,
+                  "column": 17
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1691,
+                "end": 1693,
+                "loc": {
+                  "start": {
+                    "line": 34,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 34,
+                    "column": 4
+                  },
+                  "identifierName": "q5"
+                },
+                "name": "q5"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1695,
+                "end": 1706,
+                "loc": {
+                  "start": {
+                    "line": 34,
+                    "column": 6
+                  },
+                  "end": {
+                    "line": 34,
+                    "column": 17
+                  }
+                },
+                "extra": {
+                  "rawValue": "5.个人信息的销毁",
+                  "raw": "'5.个人信息的销毁'"
+                },
+                "value": "5.个人信息的销毁"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 1710,
+              "end": 2042,
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 2
+                },
+                "end": {
+                  "line": 36,
+                  "column": 328
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 1710,
+                "end": 1712,
+                "loc": {
+                  "start": {
+                    "line": 35,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 35,
+                    "column": 4
+                  },
+                  "identifierName": "a5"
+                },
+                "name": "a5"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 1718,
+                "end": 2042,
+                "loc": {
+                  "start": {
+                    "line": 36,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 36,
+                    "column": 328
+                  }
+                },
+                "extra": {
+                  "rawValue": "达到收集和使用个人信息的目的后，用户的个人信息将立即销毁。销毁程序和方法如下。\n以电子文件格式存储的个人信息将以无法使信息恢复的技术手段进行删除。打印在纸质记录、印刷品和文件上的个人信息将通过粉碎或焚烧的方式销毁。\n但是，以下个人信息将根据内部政策保存一段特定时间后再销毁。\n以下信息自用户退出服务之日起保存一年后销毁。\n注销后，接收推送通知短信和客户服务咨询处理短信的加密PCL FREE PASS账户和手机号码。\n不正当使用记录\n\nPCL Inc.还将根据个人信息到期制度单独存储或删除一年内未使用服务的会员的个人信息。存储的信息将在保存四年后销毁。\n除此之外，PCL Inc.还存储法律及其相应规定要求保留的其他个人信息。",
+                  "raw": "'达到收集和使用个人信息的目的后，用户的个人信息将立即销毁。销毁程序和方法如下。\\n以电子文件格式存储的个人信息将以无法使信息恢复的技术手段进行删除。打印在纸质记录、印刷品和文件上的个人信息将通过粉碎或焚烧的方式销毁。\\n但是，以下个人信息将根据内部政策保存一段特定时间后再销毁。\\n以下信息自用户退出服务之日起保存一年后销毁。\\n注销后，接收推送通知短信和客户服务咨询处理短信的加密PCL FREE PASS账户和手机号码。\\n不正当使用记录\\n\\nPCL Inc.还将根据个人信息到期制度单独存储或删除一年内未使用服务的会员的个人信息。存储的信息将在保存四年后销毁。\\n除此之外，PCL Inc.还存储法律及其相应规定要求保留的其他个人信息。'"
+                },
+                "value": "达到收集和使用个人信息的目的后，用户的个人信息将立即销毁。销毁程序和方法如下。\n以电子文件格式存储的个人信息将以无法使信息恢复的技术手段进行删除。打印在纸质记录、印刷品和文件上的个人信息将通过粉碎或焚烧的方式销毁。\n但是，以下个人信息将根据内部政策保存一段特定时间后再销毁。\n以下信息自用户退出服务之日起保存一年后销毁。\n注销后，接收推送通知短信和客户服务咨询处理短信的加密PCL FREE PASS账户和手机号码。\n不正当使用记录\n\nPCL Inc.还将根据个人信息到期制度单独存储或删除一年内未使用服务的会员的个人信息。存储的信息将在保存四年后销毁。\n除此之外，PCL Inc.还存储法律及其相应规定要求保留的其他个人信息。"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 2047,
+              "end": 2488,
+              "loc": {
+                "start": {
+                  "line": 38,
+                  "column": 2
+                },
+                "end": {
+                  "line": 39,
+                  "column": 437
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 2047,
+                "end": 2049,
+                "loc": {
+                  "start": {
+                    "line": 38,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 38,
+                    "column": 4
+                  },
+                  "identifierName": "a6"
+                },
+                "name": "a6"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 2055,
+                "end": 2488,
+                "loc": {
+                  "start": {
+                    "line": 39,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 39,
+                    "column": 437
+                  }
+                },
+                "extra": {
+                  "rawValue": "PCL Inc.保护用户权利。\n用户可以随时查看和编辑自己的个人信息（14周岁以下的用户通过法定代表人进行），并可以随时撤销同意提供个人信息或退出服务。用户可以通过点击服务中的退出按钮退出服务或撤销提供其个人信息，或通过书面、电话或电子邮件联系客户服务。如果用户要求修改个人信息，则在修改完成之前将不会使用或提供用户信息。\n\n此外，PCL Inc.可能会在事先征得用户的同意的情况下使用个人信息来提供活动和广告等营销活动。用户可以随时撤销同意。\n如果用户通过书面、电话或电子邮件形式联系客户服务，则与上述相关的请求可以立即得到解决。\n如果您要求更正个人信息中的错误，PCL Inc.在完成更正之前将不会使用或提供个人信息。\n\n对隐私保护是否有任何疑问？\n\n有关您在使用服务的过程中出现的任何与个人信息保护相关的查询、投诉、反馈或其他事项，请联系隐私保护办公室或相关部门。\n\nPCL Inc.将尽最大努力倾听您的意见，并及时回答您的任何问题。",
+                  "raw": "'PCL Inc.保护用户权利。\\n用户可以随时查看和编辑自己的个人信息（14周岁以下的用户通过法定代表人进行），并可以随时撤销同意提供个人信息或退出服务。用户可以通过点击服务中的退出按钮退出服务或撤销提供其个人信息，或通过书面、电话或电子邮件联系客户服务。如果用户要求修改个人信息，则在修改完成之前将不会使用或提供用户信息。\\n\\n此外，PCL Inc.可能会在事先征得用户的同意的情况下使用个人信息来提供活动和广告等营销活动。用户可以随时撤销同意。\\n如果用户通过书面、电话或电子邮件形式联系客户服务，则与上述相关的请求可以立即得到解决。\\n如果您要求更正个人信息中的错误，PCL Inc.在完成更正之前将不会使用或提供个人信息。\\n\\n对隐私保护是否有任何疑问？\\n\\n有关您在使用服务的过程中出现的任何与个人信息保护相关的查询、投诉、反馈或其他事项，请联系隐私保护办公室或相关部门。\\n\\nPCL Inc.将尽最大努力倾听您的意见，并及时回答您的任何问题。'"
+                },
+                "value": "PCL Inc.保护用户权利。\n用户可以随时查看和编辑自己的个人信息（14周岁以下的用户通过法定代表人进行），并可以随时撤销同意提供个人信息或退出服务。用户可以通过点击服务中的退出按钮退出服务或撤销提供其个人信息，或通过书面、电话或电子邮件联系客户服务。如果用户要求修改个人信息，则在修改完成之前将不会使用或提供用户信息。\n\n此外，PCL Inc.可能会在事先征得用户的同意的情况下使用个人信息来提供活动和广告等营销活动。用户可以随时撤销同意。\n如果用户通过书面、电话或电子邮件形式联系客户服务，则与上述相关的请求可以立即得到解决。\n如果您要求更正个人信息中的错误，PCL Inc.在完成更正之前将不会使用或提供个人信息。\n\n对隐私保护是否有任何疑问？\n\n有关您在使用服务的过程中出现的任何与个人信息保护相关的查询、投诉、反馈或其他事项，请联系隐私保护办公室或相关部门。\n\nPCL Inc.将尽最大努力倾听您的意见，并及时回答您的任何问题。"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 2492,
+              "end": 2665,
+              "loc": {
+                "start": {
+                  "line": 40,
+                  "column": 2
+                },
+                "end": {
+                  "line": 41,
+                  "column": 169
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 2492,
+                "end": 2494,
+                "loc": {
+                  "start": {
+                    "line": 40,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 40,
+                    "column": 4
+                  },
+                  "identifierName": "a7"
+                },
+                "name": "a7"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 2500,
+                "end": 2665,
+                "loc": {
+                  "start": {
+                    "line": 41,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 41,
+                    "column": 169
+                  }
+                },
+                "extra": {
+                  "rawValue": "οRepresentative for managing personal information\n- Department : Business Strategy Group\n- Designation :  CFO \n- Name : Kim InKyu\n- email : pclchip@pclchip.com",
+                  "raw": "'οRepresentative for managing personal information\\n- Department : Business Strategy Group\\n- Designation :  CFO \\n- Name : Kim InKyu\\n- email : pclchip@pclchip.com'"
+                },
+                "value": "οRepresentative for managing personal information\n- Department : Business Strategy Group\n- Designation :  CFO \n- Name : Kim InKyu\n- email : pclchip@pclchip.com"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 2669,
+              "end": 2814,
+              "loc": {
+                "start": {
+                  "line": 42,
+                  "column": 2
+                },
+                "end": {
+                  "line": 43,
+                  "column": 141
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 2669,
+                "end": 2671,
+                "loc": {
+                  "start": {
+                    "line": 42,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 42,
+                    "column": 4
+                  },
+                  "identifierName": "a8"
+                },
+                "name": "a8"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 2677,
+                "end": 2814,
+                "loc": {
+                  "start": {
+                    "line": 43,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 43,
+                    "column": 141
+                  }
+                },
+                "extra": {
+                  "rawValue": "隐私政策的修订\n隐私政策可能应任意法律或服务变更会进行修订。\n如果隐私政策进行修订，PCL Inc.将提前通知，修订后的隐私政策将在修订通知发出之日后的7天生效。\n但是，对于包括要收集的个人信息项目和收集目的在内的用户权利的任何重大变更，将至少提前30天发送通知。",
+                  "raw": "'隐私政策的修订\\n隐私政策可能应任意法律或服务变更会进行修订。\\n如果隐私政策进行修订，PCL Inc.将提前通知，修订后的隐私政策将在修订通知发出之日后的7天生效。\\n但是，对于包括要收集的个人信息项目和收集目的在内的用户权利的任何重大变更，将至少提前30天发送通知。'"
+                },
+                "value": "隐私政策的修订\n隐私政策可能应任意法律或服务变更会进行修订。\n如果隐私政策进行修订，PCL Inc.将提前通知，修订后的隐私政策将在修订通知发出之日后的7天生效。\n但是，对于包括要收集的个人信息项目和收集目的在内的用户权利的任何重大变更，将至少提前30天发送通知。"
+              }
+            }
+          ],
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      }
+    ],
+    "directives": []
+  },
+  "comments": [],
+  "tokens": [
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 0,
+      "end": 6,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "default",
+      "start": 7,
+      "end": 14,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 7
+        },
+        "end": {
+          "line": 1,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 15,
+      "end": 16,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 15
+        },
+        "end": {
+          "line": 1,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "title",
+      "start": 19,
+      "end": 24,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "end": {
+          "line": 2,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 24,
+      "end": 25,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Terms and conditions",
+      "start": 26,
+      "end": 48,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 9
+        },
+        "end": {
+          "line": 2,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 48,
+      "end": 49,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "privacyPolicy",
+      "start": 52,
+      "end": 65,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 2
+        },
+        "end": {
+          "line": 3,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 65,
+      "end": 66,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 15
+        },
+        "end": {
+          "line": 3,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "隐私政策",
+      "start": 67,
+      "end": 73,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 17
+        },
+        "end": {
+          "line": 3,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 73,
+      "end": 74,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 23
+        },
+        "end": {
+          "line": 3,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "q1",
+      "start": 78,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 5,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 80,
+      "end": 81,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+          "line": 5,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "1.我们的隐私政策是什么？",
+      "start": 82,
+      "end": 97,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 6
+        },
+        "end": {
+          "line": 5,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 97,
+      "end": 98,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 21
+        },
+        "end": {
+          "line": 5,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a1",
+      "start": 101,
+      "end": 103,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 6,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 103,
+      "end": 104,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 6,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "PCL Inc.重视用户隐私。隐私政策描述了PCL Inc.如何在用户同意的基础上收集、使用和提供个人数据，并积极保障用户权利（信息自决权）。作为信息和通信服务提供商，PCL Inc.遵守大韩民国的适用法律、个人信息保护法规和准则。术语“个人信息处理政策”是指本公司为保护用户宝贵的个人信息，使用户能够安心使用服务而必须遵守的政策。本隐私政策适用于本公司提供的基于PCL FREE PASS应用程序的服务（以下简称“服务”）。",
+      "start": 109,
+      "end": 324,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 7,
+          "column": 219
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 324,
+      "end": 325,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 219
+        },
+        "end": {
+          "line": 7,
+          "column": 220
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "q2",
+      "start": 328,
+      "end": 330,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 8,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 330,
+      "end": 331,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 4
+        },
+        "end": {
+          "line": 8,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "2.个人信息的收集",
+      "start": 332,
+      "end": 343,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 6
+        },
+        "end": {
+          "line": 8,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 343,
+      "end": 344,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 17
+        },
+        "end": {
+          "line": 8,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2",
+      "start": 347,
+      "end": 349,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 349,
+      "end": 350,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "PCL Inc.收集最低限度的个人信息，以便在用户登录或使用服务时在网站上或通过个人应用程序或程序提供以下服务。",
+      "start": 355,
+      "end": 413,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 4
+        },
+        "end": {
+          "line": 10,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 413,
+      "end": 414,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 62
+        },
+        "end": {
+          "line": 10,
+          "column": 63
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2q1",
+      "start": 417,
+      "end": 421,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 421,
+      "end": 422,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 11,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "PCL FREE PASS帐户",
+      "start": 423,
+      "end": 440,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 440,
+      "end": 441,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 25
+        },
+        "end": {
+          "line": 11,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2a1",
+      "start": 444,
+      "end": 448,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 448,
+      "end": 449,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 6
+        },
+        "end": {
+          "line": 12,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "必填：手机号码，密码，出生日期，性别",
+      "start": 450,
+      "end": 470,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 8
+        },
+        "end": {
+          "line": 12,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 470,
+      "end": 471,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 28
+        },
+        "end": {
+          "line": 12,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2q2",
+      "start": 474,
+      "end": 478,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 2
+        },
+        "end": {
+          "line": 13,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 478,
+      "end": 479,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 6
+        },
+        "end": {
+          "line": 13,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "验证个人身份",
+      "start": 480,
+      "end": 488,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 8
+        },
+        "end": {
+          "line": 13,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 488,
+      "end": 489,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 16
+        },
+        "end": {
+          "line": 13,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2a2",
+      "start": 492,
+      "end": 496,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 496,
+      "end": 497,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 6
+        },
+        "end": {
+          "line": 14,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "姓名，性别，出生日期，手机号码，通信服务提供商，公民/外国人",
+      "start": 498,
+      "end": 530,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 8
+        },
+        "end": {
+          "line": 14,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 530,
+      "end": 531,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 40
+        },
+        "end": {
+          "line": 14,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2q3",
+      "start": 534,
+      "end": 538,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 2
+        },
+        "end": {
+          "line": 15,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 538,
+      "end": 539,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 6
+        },
+        "end": {
+          "line": 15,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "获得法定代表人同意",
+      "start": 540,
+      "end": 551,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 8
+        },
+        "end": {
+          "line": 15,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 551,
+      "end": 552,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 19
+        },
+        "end": {
+          "line": 15,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2a3",
+      "start": 555,
+      "end": 559,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 559,
+      "end": 560,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 6
+        },
+        "end": {
+          "line": 16,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "法定代表人信息（姓名，性别，出生日期，手机号码，服务提供商，公民/外国人）",
+      "start": 565,
+      "end": 604,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 4
+        },
+        "end": {
+          "line": 17,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 604,
+      "end": 605,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 43
+        },
+        "end": {
+          "line": 17,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2q4",
+      "start": 608,
+      "end": 612,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 2
+        },
+        "end": {
+          "line": 18,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 612,
+      "end": 613,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 6
+        },
+        "end": {
+          "line": 18,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "什么是必填信息？",
+      "start": 614,
+      "end": 624,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 8
+        },
+        "end": {
+          "line": 18,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 624,
+      "end": 625,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 18
+        },
+        "end": {
+          "line": 18,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2a4",
+      "start": 628,
+      "end": 632,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 2
+        },
+        "end": {
+          "line": 19,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 632,
+      "end": 633,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 6
+        },
+        "end": {
+          "line": 19,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "提供服务基本功能所需的信息",
+      "start": 634,
+      "end": 649,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 8
+        },
+        "end": {
+          "line": 19,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 649,
+      "end": 650,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 23
+        },
+        "end": {
+          "line": 19,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2q5",
+      "start": 653,
+      "end": 657,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 657,
+      "end": 658,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 6
+        },
+        "end": {
+          "line": 20,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "什么是可选信息？",
+      "start": 659,
+      "end": 669,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 8
+        },
+        "end": {
+          "line": 20,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 669,
+      "end": 670,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 18
+        },
+        "end": {
+          "line": 20,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2a5",
+      "start": 673,
+      "end": 677,
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 21,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 677,
+      "end": 678,
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 6
+        },
+        "end": {
+          "line": 21,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "为提供更专业的服务而需要收集的额外信息（即使没有提供可选信息，也没有限制使用服务。）",
+      "start": 683,
+      "end": 727,
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 727,
+      "end": 728,
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 48
+        },
+        "end": {
+          "line": 22,
+          "column": 49
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a2a6",
+      "start": 731,
+      "end": 735,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 2
+        },
+        "end": {
+          "line": 23,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 735,
+      "end": 736,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 6
+        },
+        "end": {
+          "line": 23,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "通过以下方法收集个人信息：\n在收集个人信息时，PCL Inc.会提前通知用户并征求其同意。\n.用户同意在注册服务或使用服务时收集个人信息并输入相关信息\n.通过附属服务或组织提供个人信息\n.在客户服务过程中，通过网页、电子邮件、传真、电话等方式提供个人信息\n.用户参与线上/线下活动\n在用户使用服务时向用户收集的个人信息如下。\n.设备信息（操作系统、屏幕尺寸、设备ID、设备型号名称等）、IP地址、cookies、访问日期、非法使用记录、服务使用记录等。\n信息可以自动生成和收集。\n由第三方通过合作伙伴或相关服务提供个人信息。",
+      "start": 741,
+      "end": 1014,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 24,
+          "column": 277
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1014,
+      "end": 1015,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 277
+        },
+        "end": {
+          "line": 24,
+          "column": 278
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "q3",
+      "start": 1019,
+      "end": 1021,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 2
+        },
+        "end": {
+          "line": 26,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1021,
+      "end": 1022,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 4
+        },
+        "end": {
+          "line": 26,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "3.个人信息的使用",
+      "start": 1023,
+      "end": 1034,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 6
+        },
+        "end": {
+          "line": 26,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1034,
+      "end": 1035,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 17
+        },
+        "end": {
+          "line": 26,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a3",
+      "start": 1038,
+      "end": 1040,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 2
+        },
+        "end": {
+          "line": 27,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1040,
+      "end": 1041,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "个人信息用于管理会员、提供和改进服务以及开发新服务。\n在用户注册服务或用户使用服务时，通过主页、个人应用程序和程序等在提供服务所需的最低限度内收集个人信息。\n- 会员身份识别，用户注册意愿确认，用户和年龄验证，防止不当使用\n- 在收集未满14岁儿童的个人信息时，确认已获得法定代表人的同意，然后验证法定代表人的身份\n- 提供用户搜索和注册、新服务开发、各种服务提供、查询和投诉处理、通知推送等各种功能\n- 向付费服务或送货/付款用户发送内容等\n- 防止和制裁任何中断正常服务运营的行为（包括盗用账号和欺诈使用等）\n- 根据人群统计特征和用户的兴趣、偏好和倾向分析提供定制化内容推荐和营销\n- 基于服务使用记录、访问频率和服务使用的统计数据；隐私环境服务环境开发；定制化服务开发；服务改进。",
+      "start": 1046,
+      "end": 1400,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 4
+        },
+        "end": {
+          "line": 28,
+          "column": 358
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1400,
+      "end": 1401,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 358
+        },
+        "end": {
+          "line": 28,
+          "column": 359
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "q4",
+      "start": 1405,
+      "end": 1407,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 2
+        },
+        "end": {
+          "line": 30,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1407,
+      "end": 1408,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 4
+        },
+        "end": {
+          "line": 30,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "4.个人信息的提供",
+      "start": 1409,
+      "end": 1420,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 6
+        },
+        "end": {
+          "line": 30,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1420,
+      "end": 1421,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 17
+        },
+        "end": {
+          "line": 30,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a4",
+      "start": 1424,
+      "end": 1426,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 2
+        },
+        "end": {
+          "line": 31,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1426,
+      "end": 1427,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 4
+        },
+        "end": {
+          "line": 31,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "未经用户同意或在适用法律法规未提出要求的情况下，PCL Inc.不会向任何第三方提供个人信息。\nPCL Inc.将以下个人信息委托给第三方，以将Kakao服务连接到第三方服务。\n未经用户事先同意，PCL Inc.不会向第三方披露用户个人信息。但是，在用户使用PCL Inc.合伙人公司的服务的必要情况下，可能会在用户同意的情况下向第三方提供个人信息。\nPCL Inc.在委托提供服务所需的部分事务的过程中向第三方提供个人信息。\nPCL Inc.还对受托方进行监督和监控，以防止其违反适用法律法规。",
+      "start": 1432,
+      "end": 1686,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 4
+        },
+        "end": {
+          "line": 32,
+          "column": 258
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1686,
+      "end": 1687,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 258
+        },
+        "end": {
+          "line": 32,
+          "column": 259
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "q5",
+      "start": 1691,
+      "end": 1693,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 2
+        },
+        "end": {
+          "line": 34,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1693,
+      "end": 1694,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 4
+        },
+        "end": {
+          "line": 34,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "5.个人信息的销毁",
+      "start": 1695,
+      "end": 1706,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 6
+        },
+        "end": {
+          "line": 34,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1706,
+      "end": 1707,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 17
+        },
+        "end": {
+          "line": 34,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a5",
+      "start": 1710,
+      "end": 1712,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 2
+        },
+        "end": {
+          "line": 35,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1712,
+      "end": 1713,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 4
+        },
+        "end": {
+          "line": 35,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "达到收集和使用个人信息的目的后，用户的个人信息将立即销毁。销毁程序和方法如下。\n以电子文件格式存储的个人信息将以无法使信息恢复的技术手段进行删除。打印在纸质记录、印刷品和文件上的个人信息将通过粉碎或焚烧的方式销毁。\n但是，以下个人信息将根据内部政策保存一段特定时间后再销毁。\n以下信息自用户退出服务之日起保存一年后销毁。\n注销后，接收推送通知短信和客户服务咨询处理短信的加密PCL FREE PASS账户和手机号码。\n不正当使用记录\n\nPCL Inc.还将根据个人信息到期制度单独存储或删除一年内未使用服务的会员的个人信息。存储的信息将在保存四年后销毁。\n除此之外，PCL Inc.还存储法律及其相应规定要求保留的其他个人信息。",
+      "start": 1718,
+      "end": 2042,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 4
+        },
+        "end": {
+          "line": 36,
+          "column": 328
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2042,
+      "end": 2043,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 328
+        },
+        "end": {
+          "line": 36,
+          "column": 329
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a6",
+      "start": 2047,
+      "end": 2049,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 2
+        },
+        "end": {
+          "line": 38,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2049,
+      "end": 2050,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 4
+        },
+        "end": {
+          "line": 38,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "PCL Inc.保护用户权利。\n用户可以随时查看和编辑自己的个人信息（14周岁以下的用户通过法定代表人进行），并可以随时撤销同意提供个人信息或退出服务。用户可以通过点击服务中的退出按钮退出服务或撤销提供其个人信息，或通过书面、电话或电子邮件联系客户服务。如果用户要求修改个人信息，则在修改完成之前将不会使用或提供用户信息。\n\n此外，PCL Inc.可能会在事先征得用户的同意的情况下使用个人信息来提供活动和广告等营销活动。用户可以随时撤销同意。\n如果用户通过书面、电话或电子邮件形式联系客户服务，则与上述相关的请求可以立即得到解决。\n如果您要求更正个人信息中的错误，PCL Inc.在完成更正之前将不会使用或提供个人信息。\n\n对隐私保护是否有任何疑问？\n\n有关您在使用服务的过程中出现的任何与个人信息保护相关的查询、投诉、反馈或其他事项，请联系隐私保护办公室或相关部门。\n\nPCL Inc.将尽最大努力倾听您的意见，并及时回答您的任何问题。",
+      "start": 2055,
+      "end": 2488,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 4
+        },
+        "end": {
+          "line": 39,
+          "column": 437
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2488,
+      "end": 2489,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 437
+        },
+        "end": {
+          "line": 39,
+          "column": 438
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a7",
+      "start": 2492,
+      "end": 2494,
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 2
+        },
+        "end": {
+          "line": 40,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2494,
+      "end": 2495,
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 4
+        },
+        "end": {
+          "line": 40,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "οRepresentative for managing personal information\n- Department : Business Strategy Group\n- Designation :  CFO \n- Name : Kim InKyu\n- email : pclchip@pclchip.com",
+      "start": 2500,
+      "end": 2665,
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 4
+        },
+        "end": {
+          "line": 41,
+          "column": 169
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2665,
+      "end": 2666,
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 169
+        },
+        "end": {
+          "line": 41,
+          "column": 170
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "a8",
+      "start": 2669,
+      "end": 2671,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 2
+        },
+        "end": {
+          "line": 42,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2671,
+      "end": 2672,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 4
+        },
+        "end": {
+          "line": 42,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "隐私政策的修订\n隐私政策可能应任意法律或服务变更会进行修订。\n如果隐私政策进行修订，PCL Inc.将提前通知，修订后的隐私政策将在修订通知发出之日后的7天生效。\n但是，对于包括要收集的个人信息项目和收集目的在内的用户权利的任何重大变更，将至少提前30天发送通知。",
+      "start": 2677,
+      "end": 2814,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 4
+        },
+        "end": {
+          "line": 43,
+          "column": 141
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2814,
+      "end": 2815,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 141
+        },
+        "end": {
+          "line": 43,
+          "column": 142
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 2816,
+      "end": 2817,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 0
+        },
+        "end": {
+          "line": 44,
+          "column": 1
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2817,
+      "end": 2818,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 1
+        },
+        "end": {
+          "line": 44,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2819,
+      "end": 2819,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 0
+        },
+        "end": {
+          "line": 45,
+          "column": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "coverage": "21.37%",
+  "expectCount": 248,
+  "actualCount": 53,
+  "files": {
+    "src/components/BottomSheet.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        20,
+        67,
+        35
+      ]
+    },
+    "src/components/Button.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        61,
+        16
+      ]
+    },
+    "src/components/ButtonLight.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        35,
+        10
+      ]
+    },
+    "src/components/DosesBottomSheet.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        19,
+        60,
+        30
+      ]
+    },
+    "src/components/Headerlight.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        51,
+        12
+      ]
+    },
+    "src/components/Indicator.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        17,
+        5
+      ]
+    },
+    "src/components/Indicatorr.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        49,
+        20
+      ]
+    },
+    "src/components/Input.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        26,
+        10
+      ]
+    },
+    "src/components/Item.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        42,
+        14
+      ]
+    },
+    "src/components/ModalBox.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        35,
+        11
+      ]
+    },
+    "src/components/NoConnectionModal.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        49
+      ]
+    },
+    "src/components/ResultModal.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        31,
+        12
+      ]
+    },
+    "src/components/STQRScanner.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        103,
+        21
+      ]
+    },
+    "src/components/Separator.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        5
+      ]
+    },
+    "src/components/Spinner.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        17,
+        5
+      ]
+    },
+    "src/components/Toast.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/config/i18nextConfig.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        14,
+        24,
+        26
+      ]
+    },
+    "src/config/navigationOptions.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        19,
+        45,
+        71,
+        111,
+        163,
+        181,
+        219,
+        257
+      ]
+    },
+    "src/config/pushNotifications.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/constants/ApiRoutes.js": {
+      "expectCount": 30,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25,
+        27,
+        28,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        42,
+        45,
+        48,
+        50,
+        53
+      ]
+    },
+    "src/constants/Colors.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/constants/Images.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        67
+      ]
+    },
+    "src/constants/InstitutionsData.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/constants/Keys.js": {
+      "expectCount": 4,
+      "actualCount": 1,
+      "undocumentLines": [
+        6,
+        7,
+        8
+      ]
+    },
+    "src/constants/Regex.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "src/constants/Routes.js": {
+      "expectCount": 52,
+      "actualCount": 1,
+      "undocumentLines": [
+        7,
+        8,
+        9,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        59,
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    "src/constants/ToastTypes.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/customHooks/user.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        32
+      ]
+    },
+    "src/navigation/Auth.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        25
+      ]
+    },
+    "src/navigation/Authenticated.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        21
+      ]
+    },
+    "src/navigation/AuthenticatedTabNavigator.js": {
+      "expectCount": 4,
+      "actualCount": 2,
+      "undocumentLines": [
+        29,
+        30
+      ]
+    },
+    "src/navigation/CommonStack.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        19
+      ]
+    },
+    "src/navigation/ResultsStack.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        43
+      ]
+    },
+    "src/navigation/SettingsStack.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        23
+      ]
+    },
+    "src/navigation/SiteManagerStack.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        13
+      ]
+    },
+    "src/redux/actions/user/index.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        16,
+        23,
+        30,
+        37,
+        44,
+        51,
+        58,
+        65
+      ]
+    },
+    "src/redux/reducers/user/index.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        17,
+        29
+      ]
+    },
+    "src/redux/store/index.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        15
+      ]
+    },
+    "src/redux/type/index.js": {
+      "expectCount": 8,
+      "actualCount": 1,
+      "undocumentLines": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "src/root/App.js": {
+      "expectCount": 4,
+      "actualCount": 2,
+      "undocumentLines": [
+        21,
+        82
+      ]
+    },
+    "src/screens/auth/confirmImage/index.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        137
+      ]
+    },
+    "src/screens/auth/forgotPassword/index.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        147
+      ]
+    },
+    "src/screens/auth/setPassword/index.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        175
+      ]
+    },
+    "src/screens/auth/signUp/index.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        114
+      ]
+    },
+    "src/screens/auth/success/index.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        81
+      ]
+    },
+    "src/screens/authenticated/contactUs/index.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/screens/authenticated/faq/index.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        156
+      ]
+    },
+    "src/screens/authenticated/myProfile/index.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        29,
+        129
+      ]
+    },
+    "src/screens/authenticated/myProfile/tabs/index.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        19,
+        115
+      ]
+    },
+    "src/screens/authenticated/results/index.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        39,
+        226
+      ]
+    },
+    "src/screens/authenticated/results/selfTesting/confirmSelfTest/index.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/screens/authenticated/results/selfTesting/instructions/STIntroScreen1.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        70
+      ]
+    },
+    "src/screens/authenticated/results/selfTesting/instructions/STIntroScreen2.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        87
+      ]
+    },
+    "src/screens/authenticated/results/selfTesting/instructions/STIntroScreen3.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        65
+      ]
+    },
+    "src/screens/authenticated/results/selfTesting/instructions/STIntroScreen4.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        69
+      ]
+    },
+    "src/screens/authenticated/results/selfTesting/instructions/STIntroScreen5.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        69
+      ]
+    },
+    "src/screens/authenticated/results/selfTesting/instructions/STIntroScreen6.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        68
+      ]
+    },
+    "src/screens/authenticated/results/selfTesting/instructions/STIntroScreen7.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        65
+      ]
+    },
+    "src/screens/authenticated/results/selfTesting/instructions/STIntroScreen8.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        69
+      ]
+    },
+    "src/screens/authenticated/results/selfTesting/takePhotoStart/index.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/screens/authenticated/results/success/index.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        58
+      ]
+    },
+    "src/screens/authenticated/success/index.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        75,
+        24
+      ]
+    },
+    "src/screens/authenticated/termsAndConditions/index.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        91
+      ]
+    },
+    "src/screens/common/loadingSplash/index.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/utils/apiRequests.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "src/utils/asyncRequests.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "src/utils/checkPermissions.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/utils/detectTextLanguage.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        6,
+        11
+      ]
+    },
+    "src/utils/getBuildDetails.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/utils/getDeviceInfo.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/utils/numberFormatting.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/utils/react-redux-hooks.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        7
+      ]
+    }
+  }
+}

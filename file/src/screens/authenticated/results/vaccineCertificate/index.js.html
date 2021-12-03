@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../../../">
+  <title data-ice="title">src/screens/authenticated/results/vaccineCertificate/index.js | pass-and-go</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalBox">ModalBox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Button">Button</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ButtonLight">ButtonLight</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DosesBottomSheet">DosesBottomSheet</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Headerlight">Headerlight</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalBox">ModalBox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Input">Input</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Item">Item</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalBox">ModalBox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalBox">ModalBox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalBox">ModalBox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Separator">Separator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Spinner">Spinner</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#config">config</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LocalNotification">LocalNotification</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants">constants</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ADD_VACCINE_CERTIFICATE">ADD_VACCINE_CERTIFICATE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BASE_URL">BASE_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHANGE_PASSWORD_URL">CHANGE_PASSWORD_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHECKED_IN_USERS">CHECKED_IN_USERS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHECK_RESULTS">CHECK_RESULTS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHECK_USER">CHECK_USER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FORGOT_PASSWORD_URL">FORGOT_PASSWORD_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GET_BTM">GET_BTM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GET_MANAGER_INFO">GET_MANAGER_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GET_TESTS">GET_TESTS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GET_VACCINES">GET_VACCINES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GET_VISITED_PLACES">GET_VISITED_PLACES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PASS_SERVICE_URL">PASS_SERVICE_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-REGISTER_SITE">REGISTER_SITE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RESET_PASSWORD_URL">RESET_PASSWORD_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SAVE_PCR">SAVE_PCR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_IN_URL">SIGN_IN_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_UP_URL">SIGN_UP_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SITE_CHECKIN">SITE_CHECKIN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UPDATE_SITE">UPDATE_SITE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AppColor">AppColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-logo">logo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-APP_LANG">APP_LANG</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MESSAGE">MESSAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-TOKEN">TOKEN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-USER_DATA">USER_DATA</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ABOUT">ABOUT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AUTHENTICATED_ROUTE">AUTHENTICATED_ROUTE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AUTHENTICATED_TAB_ROUTE">AUTHENTICATED_TAB_ROUTE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AUTH_FLOW_ROUTE">AUTH_FLOW_ROUTE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AUTH_ROUTE">AUTH_ROUTE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHANGE_LANGUAGE">CHANGE_LANGUAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHANGE_PASSWORD">CHANGE_PASSWORD</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHOOSE_TEST">CHOOSE_TEST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-COMMON_ROUTES">COMMON_ROUTES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CONFIRM_IMAGE">CONFIRM_IMAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CONFIRM_TEST">CONFIRM_TEST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CONFIRM_VACCINE">CONFIRM_VACCINE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CONTACT_US">CONTACT_US</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DOWNLOAD_PAGE">DOWNLOAD_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DRAWER_ROUTE">DRAWER_ROUTE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FAQ">FAQ</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FORGOT_PASSWORD">FORGOT_PASSWORD</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-IMPORT_TEST">IMPORT_TEST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-IMPORT_VACCINE">IMPORT_VACCINE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-LOADING_SPLASH">LOADING_SPLASH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MY_INFO">MY_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MY_PASS">MY_PASS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MY_PROFILE">MY_PROFILE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PASS_SERVICE">PASS_SERVICE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RESET_PASSWORD">RESET_PASSWORD</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RESULTS">RESULTS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RESULTS_ROUTES">RESULTS_ROUTES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SETTINGS">SETTINGS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SETTINGS_ROUTES">SETTINGS_ROUTES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_IMAGE">SET_IMAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_PASSWORD">SET_PASSWORD</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_IN">SIGN_IN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_UP">SIGN_UP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_UP_SCREEN">SIGN_UP_SCREEN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SITE_INFO">SITE_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SITE_INFO_EDIT">SITE_INFO_EDIT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SITE_MANAGER">SITE_MANAGER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SITE_MANAGER_ROUTES">SITE_MANAGER_ROUTES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUCCESS">SUCCESS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUCCESS_TEST">SUCCESS_TEST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-TERMS_CONDITIONS">TERMS_CONDITIONS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-VACCINE_CERTIFICATE">VACCINE_CERTIFICATE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-VERIFY_OTP">VERIFY_OTP</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#navigation">navigation</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Auth">Auth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Authenticated">Authenticated</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AuthenticatedTabs">AuthenticatedTabs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CommonStack">CommonStack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CommonStack">CommonStack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultsStack">ResultsStack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SettingsStack">SettingsStack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SiteManagerStack">SiteManagerStack</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#redux-actions-user">redux/actions/user</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setCurrentUser">setCurrentUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setLoader">setLoader</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setNotifications">setNotifications</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setRegisteredSite">setRegisteredSite</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setResults">setResults</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setToken">setToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setVaccine">setVaccine</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#redux-reducers-user">redux/reducers/user</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-userReducer">userReducer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#redux-store">redux/store</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ConfigureStore">ConfigureStore</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#redux-type">redux/type</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_CURRENT_USER">SET_CURRENT_USER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_LOADING">SET_LOADING</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_NOTIFICATIONS">SET_NOTIFICATIONS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_REGISTERED_SITE">SET_REGISTERED_SITE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_RESULT">SET_RESULT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_TOKEN">SET_TOKEN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_VACCINE">SET_VACCINE</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#root">root</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-confirmimage">screens/auth/confirmImage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ConfirmImage">ConfirmImage</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-forgotpassword">screens/auth/forgotPassword</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ForgotPassword">ForgotPassword</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-passservice">screens/auth/passService</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PassService">PassService</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-setimage">screens/auth/setImage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SetImage">SetImage</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-setpassword">screens/auth/setPassword</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SetPassword">SetPassword</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-signup">screens/auth/signUp</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignUp">SignUp</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-signupscreen">screens/auth/signUpScreen</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignUpScreen">SignUpScreen</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-success">screens/auth/success</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Success">Success</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-verifyotp">screens/auth/verifyOtp</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-VerifyOtp">VerifyOtp</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-about">screens/authenticated/about</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-About">About</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-changelanguage">screens/authenticated/changeLanguage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeLanguage">ChangeLanguage</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-changepassword">screens/authenticated/changePassword</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangePassword">ChangePassword</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-contactus">screens/authenticated/contactUs</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ContactUs">ContactUs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-faq">screens/authenticated/faq</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Faq">Faq</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-myprofile">screens/authenticated/myProfile</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MyProfile">MyProfile</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-myprofile-tabs">screens/authenticated/myProfile/tabs</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabViewExample">TabViewExample</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabViewExample">TabViewExample</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-paasservice">screens/authenticated/paasService</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignUp">SignUp</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-resetpassword">screens/authenticated/resetPassword</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResetPassword">ResetPassword</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results">screens/authenticated/results</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Results">Results</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-choosetest">screens/authenticated/results/chooseTest</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChooseTest">ChooseTest</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-confirmtest">screens/authenticated/results/confirmTest</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ConfirmTest">ConfirmTest</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-confirmvaccine">screens/authenticated/results/confirmVaccine</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ConfirmVaccine">ConfirmVaccine</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-importtest">screens/authenticated/results/importTest</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ImportTest">ImportTest</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-importvaccine">screens/authenticated/results/importVaccine</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ImportVaccine">ImportVaccine</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-success">screens/authenticated/results/success</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Success">Success</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-vaccinecertificate">screens/authenticated/results/vaccineCertificate</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-VaccineCertificate">VaccineCertificate</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-settingscreen">screens/authenticated/settingScreen</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Settings">Settings</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-siteinfo">screens/authenticated/siteInfo</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SiteInfo">SiteInfo</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-siteinfoedit">screens/authenticated/siteInfoEdit</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SiteInfoEdit">SiteInfoEdit</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-success">screens/authenticated/success</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Success">Success</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-termsandconditions">screens/authenticated/termsAndConditions</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TermsAndConditions">TermsAndConditions</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-common-loadingsplash">screens/common/loadingSplash</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingSplash">LoadingSplash</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils">utils</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GetRequest">GetRequest</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PostRequest">PostRequest</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getData">getData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-removeData">removeData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-saveData">saveData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-checkStorageWrittingPermissions">checkStorageWrittingPermissions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-kmbtFormatter">kmbtFormatter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nFormatter">nFormatter</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/screens/authenticated/results/vaccineCertificate/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/* eslint-disable react-native/no-inline-styles */
+/* eslint-disable no-shadow */
+import React, {useEffect, useState} from &apos;react&apos;;
+import {
+  SafeAreaView,
+  StyleSheet,
+  Image,
+  Text,
+  View,
+  TouchableOpacity,
+  TextInput,
+} from &apos;react-native&apos;;
+import {useTranslation} from &apos;react-i18next&apos;;
+import {
+  responsiveWidth,
+  responsiveHeight,
+  responsiveFontSize,
+} from &apos;react-native-responsive-dimensions&apos;;
+import Button from &apos;../../../../components/Button&apos;;
+import Separator from &apos;../../../../components/Separator&apos;;
+import {AppColor} from &apos;../../../../constants/Colors&apos;;
+import Headerlight from &apos;../../../../components/Headerlight&apos;;
+import Cal from &apos;../../../../assets/images/timeSetup/cal.svg&apos;;
+import DropDown from &apos;../../../../assets/images/util/dropDown.svg&apos;;
+import Snackbar from &apos;react-native-snackbar&apos;;
+import {useDispatch, useSelector} from &apos;react-redux&apos;;
+import {SUCCESS_TEST} from &apos;../../../../constants/Routes&apos;;
+import DateTimePickerModal from &apos;react-native-modal-datetime-picker&apos;;
+import {ADD_VACCINE_CERTIFICATE} from &apos;../../../../constants/ApiRoutes&apos;;
+import moment from &apos;moment&apos;;
+import {PostRequest} from &apos;../../../../utils/apiRequests&apos;;
+import {setVaccine} from &apos;../../../../redux/actions/user&apos;;
+import {KeyboardAwareScrollView} from &apos;react-native-keyboard-aware-scrollview&apos;;
+import ModalBox from &apos;../../../../components/ResultModal&apos;;
+import {getData} from &apos;../../../../utils/asyncRequests&apos;;
+import {APP_LANG} from &apos;../../../../constants/Keys&apos;;
+
+/**
+ * this functional component is to get vaccination certificate data.
+ * After getting data from user, it will be stored to server db.
+ * @param {object} param0 navigation and route props
+ * @returns component
+ */
+const VaccineCertificate = ({route, navigation}) =&gt; {
+  const dispatch = useDispatch();
+  const [processing, setProcessing] = useState(false);
+  const [show, setShow] = useState(false);
+  const [disabled, setDisabled] = useState(true);
+
+  const [vaccineName, setVaccineName] = useState();
+  const [dosesRequired, setDosesRequired] = useState(&apos;&apos;);
+  const [dosesCompleted, setDosesCompleted] = useState(&apos;&apos;);
+  const [firstDoseDate, setfirstDoseDate] = useState();
+  const [hospitalName, setHospitalName] = useState();
+  const [showModal, setShowModal] = useState(false);
+  const [lan, setLan] = useState(&apos;&apos;);
+
+  const photo = route.params.photo;
+  const token = useSelector(state =&gt; state.user.token);
+
+  const {t} = useTranslation(&apos;en&apos;);
+
+  useEffect(() =&gt; {
+    getLang();
+  }, []);
+
+  /**
+   * Get current app language
+   */
+  const getLang = async () =&gt; {
+    let lang = await getData(APP_LANG);
+    setLan(lang);
+  };
+
+  /**
+   * Send Post Request for adding vaccine certificate to server db
+   */
+  const validateInput = async () =&gt; {
+    if (
+      vaccineName &amp;&amp;
+      dosesRequired &amp;&amp;
+      dosesCompleted &amp;&amp;
+      firstDoseDate &amp;&amp;
+      hospitalName
+    ) {
+      var formData = new FormData();
+      formData.append(&apos;name&apos;, vaccineName);
+      formData.append(&apos;requiredDoses&apos;, dosesRequired);
+      formData.append(&apos;completedDoses&apos;, dosesCompleted);
+      formData.append(&apos;date&apos;, firstDoseDate);
+      formData.append(&apos;hospitalName&apos;, hospitalName);
+      formData.append(&apos;photo&apos;, {
+        uri: photo,
+        type: &apos;image/jpeg&apos;,
+        name: &apos;photo.jpg&apos;,
+      });
+      let data = {
+        vaccineName: vaccineName,
+        completeDate: firstDoseDate,
+        hospitalName: hospitalName,
+        dosesRequired: dosesRequired,
+        dosesCompleted: dosesCompleted,
+      };
+      setProcessing(true);
+      await PostRequest(
+        ADD_VACCINE_CERTIFICATE,
+        formData,
+        &apos;Token &apos; + token,
+        &apos;multipart/form-data&apos;,
+      )
+        .then(async response =&gt; {
+          if (response.status === 201) {
+            if (dosesRequired == dosesCompleted) {
+              dispatch(setVaccine(data));
+              navigation.navigate(SUCCESS_TEST);
+            } else {
+              setShowModal(true);
+            }
+          }
+        })
+        .catch(error =&gt; {
+          showSnackBar(&apos;Check your connection or try again&apos;);
+        })
+        .finally(() =&gt; {
+          setProcessing(false);
+        });
+    } else {
+      showSnackBar(t(&apos;common.fillAll&apos;));
+    }
+  };
+
+  /**
+   * Check input password for validation
+   * @param {String} vaccineName vaccine name
+   * @param {String} dosesRequired required doses
+   * @param {String} dosesCompleted completed doses
+   * @param {String} firstDoseDate first dose date
+   * @param {String} hospitalName hospital/clinic name
+   */
+  const CheckInputs = (
+    vaccineName,
+    dosesRequired,
+    dosesCompleted,
+    hospitalName,
+    firstDoseDate,
+  ) =&gt; {
+    if (
+      vaccineName &amp;&amp;
+      dosesRequired &amp;&amp;
+      dosesCompleted &amp;&amp;
+      firstDoseDate &amp;&amp;
+      hospitalName
+    ) {
+      setDisabled(false);
+    } else {
+      setDisabled(true);
+    }
+  };
+
+  /**
+   * This method generalize using of Snackbar
+   * @param {string} message message to show on snackbar
+   */
+  const showSnackBar = message =&gt; {
+    Snackbar.show({
+      text: message,
+      backgroundColor: AppColor.BgColorSecondary,
+      textColor: AppColor.PrimaryLight,
+      duration: Snackbar.LENGTH_SHORT,
+    });
+  };
+
+  /**
+   * show hide doses incomplete modal
+   */
+  const onPressClose = () =&gt; {
+    setShowModal(false);
+    navigation.navigate(SUCCESS_TEST);
+  };
+
+  return (
+    &lt;SafeAreaView style={styles.safeAreaView}&gt;
+      &lt;View style={styles.container}&gt;
+        {/* &lt;StatusBar translucent hidden={true}&gt;&lt;/StatusBar&gt; */}
+        &lt;Headerlight
+          title={t(&apos;results.title&apos;)}
+          color={AppColor.BgColorSecondary}
+          navigation={navigation}
+        /&gt;
+        &lt;ModalBox
+          message={t(&apos;common.dosesNotCompleted&apos;)}
+          onPressClose={onPressClose}
+          visible={showModal}
+        /&gt;
+
+        &lt;KeyboardAwareScrollView showsVerticalScrollIndicator={false}&gt;
+          &lt;View style={{alignItems: &apos;center&apos;, justifyContent: &apos;center&apos;}}&gt;
+            &lt;Separator height={responsiveHeight(10)} /&gt;
+            &lt;View style={styles.imageView}&gt;
+              &lt;Image source={{uri: photo}} style={styles.image} /&gt;
+            &lt;/View&gt;
+            &lt;Separator height={responsiveHeight(1)} /&gt;
+            &lt;View style={styles.inputView}&gt;
+              &lt;TextInput
+                testID={&apos;passwordInput&apos;}
+                style={styles.input}
+                placeholder={t(&apos;results.vaccineName&apos;)}
+                placeholderTextColor={AppColor.TextColorLight}
+                onChangeText={text =&gt; {
+                  setVaccineName(text);
+                  CheckInputs(
+                    text,
+                    dosesRequired,
+                    dosesCompleted,
+                    hospitalName,
+                    firstDoseDate,
+                  );
+                }}
+              /&gt;
+            &lt;/View&gt;
+            &lt;View
+              style={[
+                styles.bottomRow,
+                {
+                  height: responsiveHeight(4),
+                  width: responsiveWidth(78),
+                  marginRight: responsiveWidth(2),
+                },
+              ]}&gt;
+              &lt;Text style={styles.rowText}&gt;{t(&apos;results.reqDoses&apos;)}&lt;/Text&gt;
+              &lt;View style={[styles.inputViewSmall]}&gt;
+                &lt;TextInput
+                  style={[styles.inputSmall]}
+                  keyboardType={&apos;decimal-pad&apos;}
+                  maxLength={2}
+                  placeholder={dosesRequired ? dosesRequired : &apos;0&apos;}
+                  value={dosesRequired}
+                  placeholderTextColor={AppColor.TextColorLight}
+                  onChangeText={text =&gt; {
+                    setDosesRequired(text);
+                    CheckInputs(
+                      vaccineName,
+                      text,
+                      dosesCompleted,
+                      hospitalName,
+                      firstDoseDate,
+                    );
+                  }}
+                /&gt;
+                &lt;TouchableOpacity
+                  style={{
+                    flex: 1,
+                    alignItems: &apos;center&apos;,
+                    justifyContent: &apos;center&apos;,
+                  }}&gt;
+                  &lt;DropDown
+                    height={responsiveHeight(1.5)}
+                    width={responsiveHeight(1.5)}
+                    fill={AppColor.LogoColorLight}
+                  /&gt;
+                &lt;/TouchableOpacity&gt;
+              &lt;/View&gt;
+            &lt;/View&gt;
+            &lt;View
+              style={[
+                styles.bottomRow,
+                {
+                  height: responsiveHeight(5),
+                  width: responsiveWidth(78),
+                  marginRight: responsiveWidth(2),
+                },
+              ]}&gt;
+              &lt;Text style={styles.rowText}&gt;{t(&apos;results.completeDoses&apos;)} &lt;/Text&gt;
+              &lt;View style={[styles.inputViewSmall]}&gt;
+                &lt;TextInput
+                  placeholder={dosesCompleted ? dosesCompleted : &apos;0&apos;}
+                  keyboardType={&apos;decimal-pad&apos;}
+                  maxLength={2}
+                  value={dosesCompleted}
+                  placeholderTextColor={AppColor.TextColorLight}
+                  onChangeText={text =&gt; {
+                    setDosesCompleted(text);
+                    CheckInputs(
+                      vaccineName,
+                      dosesRequired,
+                      text,
+                      hospitalName,
+                      firstDoseDate,
+                    );
+                  }}
+                  style={styles.inputSmall}
+                /&gt;
+                &lt;TouchableOpacity
+                  style={{
+                    flex: 1,
+                    alignItems: &apos;center&apos;,
+                    justifyContent: &apos;center&apos;,
+                  }}&gt;
+                  &lt;DropDown
+                    height={responsiveHeight(1.5)}
+                    width={responsiveHeight(1.5)}
+                    fill={AppColor.LogoColorLight}
+                  /&gt;
+                &lt;/TouchableOpacity&gt;
+              &lt;/View&gt;
+            &lt;/View&gt;
+            &lt;Text style={styles.terms}&gt;{t(&apos;results.qrNote&apos;)}&lt;/Text&gt;
+            &lt;View
+              style={[
+                styles.bottomRow,
+                {
+                  height: responsiveHeight(5),
+                  width: responsiveWidth(80),
+                  marginLeft: responsiveWidth(6),
+                  marginTop: responsiveHeight(1),
+                },
+              ]}&gt;
+              &lt;View style={{flexDirection: &apos;row&apos;}}&gt;
+                {lan == &apos;en&apos; &amp;&amp; (
+                  &lt;View style={{flexDirection: &apos;row&apos;}}&gt;
+                    &lt;Text style={styles.rowText}&gt;1&lt;/Text&gt;
+                    &lt;Text
+                      style={{
+                        fontSize: responsiveFontSize(1) * 1.1,
+                        lineHeight: 26 * 0.5,
+                        marginBottom: responsiveHeight(0.5),
+                        color: AppColor.TextColorLight3,
+                        textAlignVertical: &apos;top&apos;,
+                      }}&gt;
+                      st
+                    &lt;/Text&gt;
+                  &lt;/View&gt;
+                )}
+
+                &lt;Text style={styles.rowText}&gt;{t(&apos;results.firstDose&apos;)}:&lt;/Text&gt;
+              &lt;/View&gt;
+              &lt;TouchableOpacity
+                onPress={() =&gt; setShow(!show)}
+                style={[
+                  styles.inputView,
+                  {
+                    height: responsiveHeight(6),
+                    width: responsiveWidth(45),
+                    // paddingTop: 15,
+                  },
+                ]}&gt;
+                &lt;Text
+                  // editable={false}
+                  // value={
+                  //   firstDoseDate
+                  //     ? moment(firstDoseDate).format(&apos;YYYY/MM/DD&apos;)
+                  //     : &apos;&apos;
+                  // }
+                  style={[
+                    styles.input,
+                    {
+                      width: responsiveWidth(30),
+                      marginRight: responsiveWidth(1),
+                      paddingTop: 10,
+                      color: firstDoseDate
+                        ? AppColor.TextColorDark
+                        : AppColor.TextColorLight3,
+                    },
+                  ]}
+                  // placeholder={&apos;yyyy/mm/dd&apos;}
+                  // placeholderTextColor={AppColor.TextColorLight}
+                &gt;
+                  {firstDoseDate
+                    ? moment(firstDoseDate).format(&apos;YYYY/MM/DD&apos;)
+                    : &apos;yyyy/mm/dd&apos;}
+                &lt;/Text&gt;
+                &lt;Cal
+                  height={responsiveHeight(2.4)}
+                  width={responsiveHeight(2.4)}
+                  fill={AppColor.LogoColorLight}
+                /&gt;
+              &lt;/TouchableOpacity&gt;
+            &lt;/View&gt;
+            &lt;Separator height={responsiveHeight(7)} /&gt;
+            &lt;View style={styles.inputView}&gt;
+              &lt;TextInput
+                testID={&apos;passwordInput&apos;}
+                style={styles.input}
+                placeholder={t(&apos;results.hospitalName&apos;)}
+                placeholderTextColor={AppColor.TextColorLight}
+                onChangeText={text =&gt; {
+                  setHospitalName(text),
+                    CheckInputs(
+                      vaccineName,
+                      dosesRequired,
+                      dosesCompleted,
+                      text,
+                      firstDoseDate,
+                    );
+                }}
+              /&gt;
+            &lt;/View&gt;
+            &lt;Separator height={responsiveHeight(1)} /&gt;
+            &lt;Button
+              disabled={disabled}
+              showLoading={processing}
+              onPress={() =&gt; validateInput()}
+              title={t(&apos;results.confirm&apos;)}
+            /&gt;
+            &lt;DateTimePickerModal
+              isVisible={show}
+              date={new Date()}
+              mode={&apos;datetime&apos;}
+              maximumDate={new Date()}
+              onConfirm={val =&gt; {
+                let newdate = moment(val).format(&apos;YYYY-MM-DD HH:mm&apos;);
+                setfirstDoseDate(newdate);
+                setShow(!show);
+                CheckInputs(
+                  vaccineName,
+                  dosesRequired,
+                  dosesCompleted,
+                  hospitalName,
+                  newdate,
+                );
+              }}
+              onCancel={() =&gt; setShow(false)}
+            /&gt;
+            &lt;Separator height={responsiveHeight(4)} /&gt;
+          &lt;/View&gt;
+        &lt;/KeyboardAwareScrollView&gt;
+      &lt;/View&gt;
+    &lt;/SafeAreaView&gt;
+  );
+};
+
+const styles = StyleSheet.create({
+  safeAreaView: {
+    flex: 1,
+    backgroundColor: &apos;#fff&apos;,
+  },
+  container: {
+    flex: 1,
+    backgroundColor: &apos;#fff&apos;,
+    alignItems: &apos;center&apos;,
+    justifyContent: &apos;center&apos;,
+  },
+  imageView: {
+    backgroundColor: AppColor.PrimaryLight,
+    zIndex: 2,
+    borderRadius: responsiveHeight(1),
+    borderColor: AppColor.BgColorSecondary,
+    borderWidth: responsiveWidth(1),
+    shadowColor: &apos;#000&apos;,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+    width: responsiveHeight(25),
+    height: responsiveHeight(25),
+    alignItems: &apos;center&apos;,
+    justifyContent: &apos;center&apos;,
+    overflow: &apos;hidden&apos;,
+  },
+  image: {
+    height: responsiveHeight(28),
+    width: responsiveHeight(28),
+    borderRadius: responsiveHeight(1),
+  },
+  phone: {
+    width: responsiveWidth(15),
+    height: responsiveHeight(25),
+    resizeMode: &apos;stretch&apos;,
+  },
+  inputView: {
+    height: responsiveHeight(7),
+    borderRadius: responsiveHeight(7),
+    borderWidth: 1.5,
+    borderColor: AppColor.BgColorSecondary,
+    marginVertical: responsiveHeight(1),
+    justifyContent: &apos;center&apos;,
+    width: responsiveWidth(85),
+    alignItems: &apos;center&apos;,
+    flexDirection: &apos;row&apos;,
+  },
+  inputViewSmall: {
+    height: responsiveHeight(3.5),
+    borderWidth: 1.5,
+    borderColor: AppColor.BgColorSecondary,
+    marginVertical: responsiveHeight(1),
+    borderTopRightRadius: responsiveHeight(2),
+    borderBottomRightRadius: responsiveHeight(2),
+    justifyContent: &apos;center&apos;,
+    width: responsiveWidth(14),
+    alignItems: &apos;center&apos;,
+    flexDirection: &apos;row&apos;,
+  },
+  text: {
+    width: &apos;80%&apos;,
+    fontSize: responsiveFontSize(2),
+    color: AppColor.TextColorLight,
+  },
+  text2: {
+    width: &apos;90%&apos;,
+    fontSize: responsiveFontSize(2),
+    color: AppColor.TextColorLight,
+  },
+
+  input: {
+    width: responsiveWidth(75),
+    alignSelf: &apos;center&apos;,
+    height: responsiveHeight(5),
+    padding: 0,
+    color: AppColor.TextColor,
+    fontSize: responsiveFontSize(2.1),
+  },
+  inputSmall: {
+    width: responsiveWidth(7),
+    alignSelf: &apos;center&apos;,
+    padding: 0,
+    textAlign: &apos;center&apos;,
+    height: responsiveHeight(3.3),
+    borderRightWidth: 1.5,
+    color: AppColor.TextColor,
+    borderColor: AppColor.BgColorSecondary,
+    fontSize: responsiveFontSize(2.1),
+  },
+  middleText: {
+    fontSize: responsiveFontSize(2),
+    marginTop: responsiveHeight(3),
+    marginBottom: responsiveHeight(2),
+    color: AppColor.TextColorLight3,
+    alignSelf: &apos;center&apos;,
+  },
+  bottomRow: {
+    flexDirection: &apos;row&apos;,
+    width: responsiveWidth(80),
+    marginLeft: responsiveWidth(5),
+    alignItems: &apos;center&apos;,
+    justifyContent: &apos;space-between&apos;,
+  },
+  innerItems: {
+    flexDirection: &apos;row&apos;,
+    borderWidth: 1,
+    borderColor: AppColor.TextColorSecondary,
+    borderRadius: responsiveHeight(5),
+    padding: responsiveWidth(1),
+    alignItems: &apos;center&apos;,
+  },
+  rowText: {
+    fontSize: responsiveFontSize(1.8),
+    color: AppColor.TextColorLight3,
+  },
+  smallinput: {
+    width: responsiveWidth(15),
+    alignSelf: &apos;center&apos;,
+    height: responsiveHeight(5),
+    padding: 0,
+    fontSize: responsiveFontSize(1.4),
+  },
+  smallinputView: {
+    height: responsiveHeight(4.5),
+    borderRadius: responsiveHeight(7),
+    borderWidth: 1.5,
+    borderColor: AppColor.BgColorSecondary,
+    marginVertical: responsiveHeight(1),
+    justifyContent: &apos;center&apos;,
+    width: responsiveWidth(25),
+    alignItems: &apos;center&apos;,
+    flexDirection: &apos;row&apos;,
+  },
+  changeText: {
+    fontSize: responsiveFontSize(2.5),
+    fontWeight: &apos;bold&apos;,
+    marginVertical: responsiveHeight(3),
+    marginTop: responsiveHeight(5),
+    color: AppColor.TextColorSecondary,
+    width: responsiveWidth(75),
+    textAlign: &apos;center&apos;,
+  },
+  forgotText: {
+    fontSize: responsiveFontSize(2.2),
+    marginVertical: responsiveHeight(3),
+    marginTop: responsiveHeight(5),
+    color: AppColor.TextColorSecondary,
+    width: responsiveWidth(75),
+    textAlign: &apos;center&apos;,
+  },
+  note: {
+    fontSize: responsiveFontSize(2),
+    marginVertical: responsiveHeight(3),
+    marginTop: responsiveHeight(5),
+    color: AppColor.TextColor,
+    width: responsiveWidth(75),
+    textAlign: &apos;center&apos;,
+  },
+
+  terms: {
+    fontSize: responsiveFontSize(1.45),
+    color: AppColor.TextColorSecondary,
+    marginLeft: responsiveWidth(4),
+    width: responsiveWidth(78),
+  },
+});
+
+export default VaccineCertificate;
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

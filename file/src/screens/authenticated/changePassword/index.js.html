@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../../">
+  <title data-ice="title">src/screens/authenticated/changePassword/index.js | pass-and-go</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalBox">ModalBox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Button">Button</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ButtonLight">ButtonLight</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DosesBottomSheet">DosesBottomSheet</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Headerlight">Headerlight</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalBox">ModalBox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Input">Input</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Item">Item</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalBox">ModalBox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalBox">ModalBox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalBox">ModalBox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Separator">Separator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Spinner">Spinner</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#config">config</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LocalNotification">LocalNotification</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants">constants</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ADD_VACCINE_CERTIFICATE">ADD_VACCINE_CERTIFICATE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BASE_URL">BASE_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHANGE_PASSWORD_URL">CHANGE_PASSWORD_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHECKED_IN_USERS">CHECKED_IN_USERS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHECK_RESULTS">CHECK_RESULTS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHECK_USER">CHECK_USER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FORGOT_PASSWORD_URL">FORGOT_PASSWORD_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GET_BTM">GET_BTM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GET_MANAGER_INFO">GET_MANAGER_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GET_TESTS">GET_TESTS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GET_VACCINES">GET_VACCINES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GET_VISITED_PLACES">GET_VISITED_PLACES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PASS_SERVICE_URL">PASS_SERVICE_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-REGISTER_SITE">REGISTER_SITE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RESET_PASSWORD_URL">RESET_PASSWORD_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SAVE_PCR">SAVE_PCR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_IN_URL">SIGN_IN_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_UP_URL">SIGN_UP_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SITE_CHECKIN">SITE_CHECKIN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UPDATE_SITE">UPDATE_SITE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AppColor">AppColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-logo">logo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-APP_LANG">APP_LANG</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MESSAGE">MESSAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-TOKEN">TOKEN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-USER_DATA">USER_DATA</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ABOUT">ABOUT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AUTHENTICATED_ROUTE">AUTHENTICATED_ROUTE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AUTHENTICATED_TAB_ROUTE">AUTHENTICATED_TAB_ROUTE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AUTH_FLOW_ROUTE">AUTH_FLOW_ROUTE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AUTH_ROUTE">AUTH_ROUTE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHANGE_LANGUAGE">CHANGE_LANGUAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHANGE_PASSWORD">CHANGE_PASSWORD</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CHOOSE_TEST">CHOOSE_TEST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-COMMON_ROUTES">COMMON_ROUTES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CONFIRM_IMAGE">CONFIRM_IMAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CONFIRM_TEST">CONFIRM_TEST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CONFIRM_VACCINE">CONFIRM_VACCINE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CONTACT_US">CONTACT_US</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DOWNLOAD_PAGE">DOWNLOAD_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DRAWER_ROUTE">DRAWER_ROUTE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FAQ">FAQ</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FORGOT_PASSWORD">FORGOT_PASSWORD</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-IMPORT_TEST">IMPORT_TEST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-IMPORT_VACCINE">IMPORT_VACCINE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-LOADING_SPLASH">LOADING_SPLASH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MY_INFO">MY_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MY_PASS">MY_PASS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MY_PROFILE">MY_PROFILE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PASS_SERVICE">PASS_SERVICE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RESET_PASSWORD">RESET_PASSWORD</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RESULTS">RESULTS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RESULTS_ROUTES">RESULTS_ROUTES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SETTINGS">SETTINGS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SETTINGS_ROUTES">SETTINGS_ROUTES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_IMAGE">SET_IMAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_PASSWORD">SET_PASSWORD</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_IN">SIGN_IN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_UP">SIGN_UP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_UP_SCREEN">SIGN_UP_SCREEN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SITE_INFO">SITE_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SITE_INFO_EDIT">SITE_INFO_EDIT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SITE_MANAGER">SITE_MANAGER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SITE_MANAGER_ROUTES">SITE_MANAGER_ROUTES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUCCESS">SUCCESS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUCCESS_TEST">SUCCESS_TEST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-TERMS_CONDITIONS">TERMS_CONDITIONS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-VACCINE_CERTIFICATE">VACCINE_CERTIFICATE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-VERIFY_OTP">VERIFY_OTP</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#navigation">navigation</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Auth">Auth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Authenticated">Authenticated</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AuthenticatedTabs">AuthenticatedTabs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CommonStack">CommonStack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CommonStack">CommonStack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultsStack">ResultsStack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SettingsStack">SettingsStack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SiteManagerStack">SiteManagerStack</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#redux-actions-user">redux/actions/user</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setCurrentUser">setCurrentUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setLoader">setLoader</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setNotifications">setNotifications</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setRegisteredSite">setRegisteredSite</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setResults">setResults</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setToken">setToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setVaccine">setVaccine</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#redux-reducers-user">redux/reducers/user</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-userReducer">userReducer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#redux-store">redux/store</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ConfigureStore">ConfigureStore</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#redux-type">redux/type</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_CURRENT_USER">SET_CURRENT_USER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_LOADING">SET_LOADING</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_NOTIFICATIONS">SET_NOTIFICATIONS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_REGISTERED_SITE">SET_REGISTERED_SITE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_RESULT">SET_RESULT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_TOKEN">SET_TOKEN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_VACCINE">SET_VACCINE</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#root">root</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-confirmimage">screens/auth/confirmImage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ConfirmImage">ConfirmImage</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-forgotpassword">screens/auth/forgotPassword</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ForgotPassword">ForgotPassword</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-passservice">screens/auth/passService</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PassService">PassService</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-setimage">screens/auth/setImage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SetImage">SetImage</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-setpassword">screens/auth/setPassword</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SetPassword">SetPassword</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-signup">screens/auth/signUp</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignUp">SignUp</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-signupscreen">screens/auth/signUpScreen</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignUpScreen">SignUpScreen</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-success">screens/auth/success</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Success">Success</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-auth-verifyotp">screens/auth/verifyOtp</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-VerifyOtp">VerifyOtp</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-about">screens/authenticated/about</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-About">About</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-changelanguage">screens/authenticated/changeLanguage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeLanguage">ChangeLanguage</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-changepassword">screens/authenticated/changePassword</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangePassword">ChangePassword</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-contactus">screens/authenticated/contactUs</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ContactUs">ContactUs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-faq">screens/authenticated/faq</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Faq">Faq</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-myprofile">screens/authenticated/myProfile</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MyProfile">MyProfile</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-myprofile-tabs">screens/authenticated/myProfile/tabs</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabViewExample">TabViewExample</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabViewExample">TabViewExample</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-paasservice">screens/authenticated/paasService</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignUp">SignUp</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-resetpassword">screens/authenticated/resetPassword</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResetPassword">ResetPassword</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results">screens/authenticated/results</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Results">Results</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-choosetest">screens/authenticated/results/chooseTest</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChooseTest">ChooseTest</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-confirmtest">screens/authenticated/results/confirmTest</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ConfirmTest">ConfirmTest</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-confirmvaccine">screens/authenticated/results/confirmVaccine</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ConfirmVaccine">ConfirmVaccine</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-importtest">screens/authenticated/results/importTest</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ImportTest">ImportTest</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-importvaccine">screens/authenticated/results/importVaccine</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ImportVaccine">ImportVaccine</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-success">screens/authenticated/results/success</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Success">Success</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-results-vaccinecertificate">screens/authenticated/results/vaccineCertificate</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-VaccineCertificate">VaccineCertificate</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-settingscreen">screens/authenticated/settingScreen</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Settings">Settings</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-siteinfo">screens/authenticated/siteInfo</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SiteInfo">SiteInfo</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-siteinfoedit">screens/authenticated/siteInfoEdit</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SiteInfoEdit">SiteInfoEdit</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-success">screens/authenticated/success</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Success">Success</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-authenticated-termsandconditions">screens/authenticated/termsAndConditions</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TermsAndConditions">TermsAndConditions</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-common-loadingsplash">screens/common/loadingSplash</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingSplash">LoadingSplash</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils">utils</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GetRequest">GetRequest</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PostRequest">PostRequest</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getData">getData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-removeData">removeData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-saveData">saveData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-checkStorageWrittingPermissions">checkStorageWrittingPermissions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-kmbtFormatter">kmbtFormatter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nFormatter">nFormatter</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/screens/authenticated/changePassword/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React, {useEffect, useState} from &apos;react&apos;;
+import {
+  SafeAreaView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  View,
+  TextInput,
+} from &apos;react-native&apos;;
+import {useTranslation} from &apos;react-i18next&apos;;
+import AsyncStorage from &apos;@react-native-async-storage/async-storage&apos;;
+import {
+  responsiveWidth,
+  responsiveHeight,
+  responsiveFontSize,
+} from &apos;react-native-responsive-dimensions&apos;;
+import {APP_LANG} from &apos;../../../constants/Keys&apos;;
+import Button from &apos;../../../components/Button&apos;;
+import Separator from &apos;../../../components/Separator&apos;;
+import {AppColor} from &apos;../../../constants/Colors&apos;;
+import Logo from &apos;../../../assets/images/logos/PnGSmall.svg&apos;;
+import Headerlight from &apos;../../../components/Headerlight&apos;;
+import {CHANGE_PASSWORD_URL} from &apos;../../../constants/ApiRoutes&apos;;
+import {useSelector} from &apos;react-redux&apos;;
+import Snackbar from &apos;react-native-snackbar&apos;;
+import {PostRequest} from &apos;../../../utils/apiRequests&apos;;
+import {
+  COMMON_ROUTES,
+  FORGOT_PASSWORD,
+  MY_PASS,
+  PAAS_SERVICE,
+  PASS_SERVICE,
+  SUCCESS,
+} from &apos;../../../constants/Routes&apos;;
+import {KeyboardAwareScrollView} from &apos;react-native-keyboard-aware-scrollview&apos;;
+
+/**
+ * this functional component is for changing password
+ * @param {object} param0 navigation and route props
+ * @returns component
+ */
+const ChangePassword = ({navigation}) =&gt; {
+  const {t, i18n} = useTranslation(&apos;en&apos;);
+  const [currentPassword, setcurrentPassword] = useState(&apos;&apos;);
+  const token = useSelector(state =&gt; state.user.token);
+  const [newPassword, setPassword] = useState(&apos;&apos;);
+  const [confirmPassword, setConfirmPassword] = useState(&apos;&apos;);
+  const [validated, setvalidated] = useState();
+  const [processing, setProcessing] = useState(false);
+
+  /**
+   * Request to change current password
+   * @returns Promise
+   */
+  const changePassword = async () =&gt; {
+    if (currentPassword.trim().length === 0) {
+      showSnackBar(t(&apos;changePassword.confirmPass&apos;));
+      return;
+    }
+    if (newPassword.trim().length === 0) {
+      showSnackBar(t(&apos;changePassword.newPass&apos;));
+      return;
+    }
+    if (confirmPassword.trim().length === 0) {
+      showSnackBar(t(&apos;common.enterConfirmPass&apos;));
+      return;
+    }
+    if (!validated) {
+      setProcessing(true);
+      const data = {
+        newPassword,
+        currentPassword,
+      };
+      await PostRequest(CHANGE_PASSWORD_URL, data, &apos;Token &apos; + token)
+        .then(response =&gt; {
+          if (response.status === 200) {
+            showSnackBar(t(&apos;changePassword.changeSuccess&apos;));
+            navigation.navigate(MY_PASS);
+          }
+        })
+        .catch(error =&gt; {
+          if (error.response.status === 400) {
+            if (
+              error.response.data.message ===
+              &apos;Your phone number is not registered&apos;
+            ) {
+              showSnackBar(t(&apos;common.numberNotRegister&apos;));
+            }
+            if (error.response.data.message === &apos;Current password is invalid&apos;) {
+              showSnackBar(t(&apos;changePassword.invalidPass&apos;));
+            }
+            if (
+              error.response.data.message ===
+              &apos;Current and new passwords are same&apos;
+            ) {
+              showSnackBar(t(&apos;changePassword.passowrdsRSame&apos;));
+            }
+          } else {
+            showSnackBar(t(&apos;changePassword.unknownError&apos;));
+          }
+        })
+        .finally(() =&gt; {
+          setProcessing(false);
+        });
+    } else {
+      showSnackBar(validated);
+    }
+  };
+
+  /**
+   * Validate input passwords
+   * @param {string} pass Password
+   */
+  const CheckPassword = pass =&gt; {
+    //^(?=.*[!@#$%^&amp;*])(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
+    var passw = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[#?!@$%^&amp;*-]).{8,}$/;
+    if (!pass.match(passw) &amp;&amp; pass.length &gt; 0) {
+      setvalidated(t(&apos;common.invalidFormat&apos;));
+      showSnackBar(t(&apos;common.invalidFormat&apos;));
+    } else {
+      if (newPassword &amp;&amp; confirmPassword &amp;&amp; currentPassword) {
+        if (newPassword === confirmPassword) {
+          setvalidated(null);
+        } else {
+          setvalidated(t(&apos;common.passNotSame&apos;));
+          showSnackBar(t(&apos;common.passNotSame&apos;));
+        }
+      } else {
+        setvalidated(&apos;Fill all the fields&apos;);
+      }
+    }
+  };
+
+  /**
+   * This method generalize using of Snackbar
+   * @param {string} message message to show on snackbar
+   */
+  const showSnackBar = message =&gt; {
+    Snackbar.show({
+      text: message,
+      backgroundColor: AppColor.BgColorSecondary,
+      textColor: AppColor.PrimaryLight,
+      duration: Snackbar.LENGTH_SHORT,
+    });
+  };
+
+  /**
+   * Action to perform when forget password is pressed
+   */
+  const onPressForgetPassword = () =&gt; {
+    // navigation.navigate(SUCCESS, {
+    //   screen: &apos;forgot&apos;,
+    // });
+    navigation.navigate(COMMON_ROUTES, {
+      screen: PASS_SERVICE,
+      params: {
+        type: &apos;forget_password&apos;,
+      },
+    });
+  };
+
+  return (
+    &lt;SafeAreaView style={styles.safeAreaView}&gt;
+      &lt;View style={styles.container}&gt;
+        &lt;Headerlight title={&apos;&apos;} navigation={navigation} /&gt;
+
+        &lt;View
+          style={{position: &apos;absolute&apos;, top: responsiveHeight(0), zIndex: 2}}&gt;
+          &lt;Logo
+            height={responsiveHeight(10)}
+            width={responsiveHeight(10)}
+            fill={AppColor.BgColorSecondary}
+          /&gt;
+        &lt;/View&gt;
+        &lt;KeyboardAwareScrollView
+          showsVerticalScrollIndicator={false}
+          contentContainerStyle={styles.scrollView}&gt;
+          &lt;Separator height={responsiveHeight(18)} /&gt;
+          &lt;Text style={styles.changeText}&gt;{t(&apos;changePassword.title&apos;)}&lt;/Text&gt;
+          &lt;Separator height={responsiveHeight(8)} /&gt;
+
+          &lt;View style={styles.inputView}&gt;
+            &lt;TextInput
+              style={styles.input}
+              secureTextEntry={true}
+              placeholder={t(&apos;changePassword.previousPass&apos;)}
+              placeholderTextColor={AppColor.TextColorLight}
+              onChangeText={val =&gt; {
+                setcurrentPassword(val);
+              }}
+              onBlur={() =&gt; CheckPassword(currentPassword)}
+            /&gt;
+          &lt;/View&gt;
+          &lt;Text
+            style={styles.forgotText}
+            onPress={() =&gt; onPressForgetPassword()}&gt;
+            {t(&apos;changePassword.forgot&apos;)}
+          &lt;/Text&gt;
+          &lt;View style={styles.inputView}&gt;
+            &lt;TextInput
+              style={styles.input}
+              secureTextEntry={true}
+              placeholder={t(&apos;changePassword.newPass&apos;)}
+              placeholderTextColor={AppColor.TextColorLight}
+              onChangeText={val =&gt; {
+                setPassword(val);
+              }}
+              onBlur={() =&gt; CheckPassword(newPassword)}
+            /&gt;
+          &lt;/View&gt;
+          &lt;Text style={styles.terms}&gt;{t(&apos;changePassword.terms&apos;)}&lt;/Text&gt;
+          &lt;View style={styles.inputView}&gt;
+            &lt;TextInput
+              style={styles.input}
+              secureTextEntry={true}
+              placeholder={t(&apos;changePassword.confirmPass&apos;)}
+              placeholderTextColor={AppColor.TextColorLight}
+              onChangeText={val =&gt; {
+                setConfirmPassword(val);
+              }}
+              onBlur={() =&gt; CheckPassword(confirmPassword)}
+            /&gt;
+          &lt;/View&gt;
+          &lt;Separator height={responsiveHeight(3)} /&gt;
+          &lt;Button
+            showLoading={processing}
+            onPress={() =&gt; changePassword()}
+            title={t(&apos;setPassword.next&apos;)}
+          /&gt;
+          &lt;Separator height={responsiveHeight(4)} /&gt;
+        &lt;/KeyboardAwareScrollView&gt;
+      &lt;/View&gt;
+    &lt;/SafeAreaView&gt;
+  );
+};
+
+const styles = StyleSheet.create({
+  safeAreaView: {
+    flex: 1,
+    backgroundColor: &apos;#fff&apos;,
+  },
+  container: {
+    flex: 1,
+    backgroundColor: &apos;#fff&apos;,
+    alignItems: &apos;center&apos;,
+    justifyContent: &apos;center&apos;,
+  },
+  scrollView: {
+    alignItems: &apos;center&apos;,
+    justifyContent: &apos;center&apos;,
+  },
+  image: {
+    width: responsiveWidth(20),
+    height: responsiveHeight(10),
+    resizeMode: &apos;stretch&apos;,
+  },
+  phone: {
+    width: responsiveWidth(15),
+    height: responsiveHeight(25),
+    resizeMode: &apos;stretch&apos;,
+  },
+  inputView: {
+    height: responsiveHeight(7),
+    borderRadius: responsiveHeight(7),
+    borderWidth: 1.5,
+    borderColor: AppColor.BgColorSecondary,
+    marginVertical: responsiveHeight(1),
+    justifyContent: &apos;center&apos;,
+    width: responsiveWidth(85),
+    alignItems: &apos;center&apos;,
+    flexDirection: &apos;row&apos;,
+  },
+  input: {
+    width: responsiveWidth(75),
+    alignSelf: &apos;center&apos;,
+    height: responsiveHeight(5),
+    padding: 0,
+    color: AppColor.TextColor,
+    fontSize: responsiveFontSize(2.1),
+  },
+  changeText: {
+    fontSize: responsiveFontSize(2.5),
+    fontWeight: &apos;bold&apos;,
+    color: AppColor.TextColorSecondary,
+    width: responsiveWidth(75),
+    textAlign: &apos;center&apos;,
+  },
+  forgotText: {
+    fontSize: responsiveFontSize(2.2),
+    marginVertical: responsiveHeight(1.3),
+    color: AppColor.TextColorSecondary,
+    width: responsiveWidth(75),
+    textAlign: &apos;center&apos;,
+  },
+  note: {
+    fontSize: responsiveFontSize(2),
+    marginVertical: responsiveHeight(3),
+    marginTop: responsiveHeight(5),
+    color: AppColor.TextColor,
+    width: responsiveWidth(75),
+    textAlign: &apos;center&apos;,
+  },
+  terms: {
+    fontSize: responsiveFontSize(1.5),
+    marginVertical: responsiveHeight(1),
+    color: AppColor.TextColorSecondary,
+    width: responsiveWidth(75),
+  },
+});
+
+export default ChangePassword;
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
